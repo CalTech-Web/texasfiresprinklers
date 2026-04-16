@@ -360,7 +360,7 @@ export default function HomePage() {
               style={{ color: "#800A03" }}
               className="font-semibold hover:underline"
             >
-              Learn More About Our Process &rarr;
+              Learn More About Our Process
             </Link>
           </div>
         </div>

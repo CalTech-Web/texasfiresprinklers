@@ -174,8 +174,8 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <p className="font-semibold text-lg">Business Hours</p>
-                    <p className="text-gray-700">Monday - Friday: 7:00am - 5:00pm</p>
-                    <p className="text-gray-700">Saturday - Sunday: Closed</p>
+                    <p className="text-gray-700">Monday through Friday, 7:00am to 5:00pm</p>
+                    <p className="text-gray-700">Saturday and Sunday: Closed</p>
                     <p className="text-sm text-gray-500 mt-1">Emergency service available 24/7</p>
                   </div>
                 </div>

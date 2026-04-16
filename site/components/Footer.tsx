@@ -48,7 +48,7 @@ export default function Footer() {
                   edwin_ibukun@outlook.com
                 </a>
               </p>
-              <p className="text-red-200">Mon-Fri: 7:00am - 5:00pm<br />Sat-Sun: Closed</p>
+              <p className="text-red-200">Mon to Fri: 7:00am to 5:00pm<br />Sat to Sun: Closed</p>
             </address>
           </div>
         </div>

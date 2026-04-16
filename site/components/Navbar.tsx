@@ -28,8 +28,9 @@ export default function Navbar() {
               height={44}
               className="rounded"
             />
-            <span className="font-bold text-lg leading-tight hidden sm:block">
-              E&R Ibukun LLC
+            <span className="font-bold text-lg leading-tight">
+              <span className="sm:hidden">E&R Ibukun</span>
+              <span className="hidden sm:inline">E&R Ibukun LLC</span>
             </span>
           </Link>
 

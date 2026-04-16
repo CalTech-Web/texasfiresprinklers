@@ -21,7 +21,7 @@ export const metadata: Metadata = {
         url: "/gallery/er-ibukun-hero.jpeg",
         width: 1920,
         height: 1080,
-        alt: "E&R Ibukun LLC - Fire Protection Services in Texas",
+        alt: "E&R Ibukun LLC Fire Protection Services in Texas",
       },
     ],
   },

@@ -4,9 +4,82 @@ import Link from "next/link";
 import FaqAccordion from "@/components/FaqAccordion";
 
 export const metadata: Metadata = {
-  title: "Fire Sprinkler Installation & Inspection in Texas | E&R Ibukun LLC",
+  title: {
+    absolute: "Fire Sprinkler Installation & Service in Texas | E&R Ibukun LLC",
+  },
   description:
     "E&R Ibukun LLC delivers expert fire sprinkler installation, inspection, and 24/7 emergency services across all of Texas. Licensed contractor SCR-G-3451926. Serving Houston and every Texas zip code.",
+};
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {
+      "@type": "Question",
+      name: "What areas of Texas do you serve?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "All of Texas. Houston is our base, but we run mobile teams to every zip code in the state. Gulf Coast, North Texas, rural counties. If it is in Texas, we can get there.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Are you licensed and insured in Texas?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Yes. Registration SCR-G-3451926, issued by the Texas Department of Insurance State Fire Marshal's Office. Every technician who shows up on a job is licensed and insured.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What fire sprinkler inspection standards do you follow?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "NFPA 25 on every job. That is the national standard for water-based fire protection inspection and testing. We also track Texas state codes and local fire marshal requirements, and we handle all the documentation that comes with it.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What types of fire suppression systems do you install and service?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Wet and dry sprinkler systems, kitchen hood systems, FM-200 clean agent for electronics and server rooms, CO2 for industrial machinery, and dry chemical for paint booths and flammable storage.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Do you offer emergency service outside of business hours?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Yes. The line is (832) 961-8372 and it runs 24 hours a day, 7 days a week. Burst pipe repair, alarm faults, post-fire system restoration, and on-site fire watch while a system is offline.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Do you handle the paperwork for fire marshal compliance?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Yes. State documentation and local fire marshal reports are part of every job. You should not have to track down paperwork after the technician leaves.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "How does your process work?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Four steps: site evaluation, custom protection plan, installation or maintenance, and final certification with full digital documentation. We handle the state-required tagging and fire marshal paperwork at the end.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What fire extinguisher services do you provide?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Annual inspections with professional tagging and certification, 6-year internal exams, hydrostatic pressure testing, and on-site recharging. We also offer PASS training for your staff. Pull, Aim, Squeeze, Sweep.",
+      },
+    },
+  ],
 };
 
 const services = [
@@ -79,6 +152,10 @@ const processSteps = [
 export default function HomePage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
       {/* Hero */}
       <section className="relative min-h-[600px] flex items-center justify-center overflow-hidden">
         <Image

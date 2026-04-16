@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "About Us | Houston Fire Sprinkler Contractor",
+  title: "Houston Fire Sprinkler Contractor",
   description:
     "E&R Ibukun LLC is a Houston-based, Texas-licensed fire protection company serving all of Texas. Learn about our mission, licensing, and commitment to fire life safety.",
 };

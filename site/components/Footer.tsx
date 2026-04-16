@@ -56,7 +56,7 @@ export default function Footer() {
         {/* License notice */}
         <div className="mt-10 pt-6 border-t border-red-700">
           <p className="text-sm text-red-200 text-center leading-relaxed">
-            Texas State Fire Sprinkler Contractor Registration No. SCR-G-3451926 &mdash; Texas Department of Insurance, State Fire Marshal&apos;s Office
+            Texas State Fire Sprinkler Contractor Registration No. SCR-G-3451926, Texas Department of Insurance, State Fire Marshal&apos;s Office
           </p>
         </div>
 

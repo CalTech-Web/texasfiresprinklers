@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contact E&R Ibukun LLC | Fire Sprinkler Service in Texas",
+  title: "Contact a Texas Fire Sprinkler Contractor",
   description:
     "Contact E&R Ibukun LLC for fire sprinkler installation, inspection, and emergency service across Texas. Call (832) 961-8372 or email us. Houston-based, Texas statewide coverage.",
 };

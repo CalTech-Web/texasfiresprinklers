@@ -15,7 +15,105 @@ export const metadata: Metadata = {
     siteName: "E&R Ibukun LLC",
     locale: "en_US",
     type: "website",
+    url: "https://texasfiresprinklers.com",
+    images: [
+      {
+        url: "/gallery/er-ibukun-hero.jpeg",
+        width: 1920,
+        height: 1080,
+        alt: "E&R Ibukun LLC - Fire Protection Services in Texas",
+      },
+    ],
   },
+  twitter: {
+    card: "summary_large_image",
+    images: ["/gallery/er-ibukun-hero.jpeg"],
+  },
+};
+
+const localBusinessSchema = {
+  "@context": "https://schema.org",
+  "@type": ["LocalBusiness", "HomeAndConstructionBusiness"],
+  name: "E&R Ibukun LLC",
+  alternateName: "Texas Fire Sprinklers",
+  url: "https://texasfiresprinklers.com",
+  logo: "https://texasfiresprinklers.com/logos/logo.jpeg",
+  image: "https://texasfiresprinklers.com/gallery/er-ibukun-hero.jpeg",
+  description:
+    "Houston-based fire protection company serving all of Texas with expert fire sprinkler installation, inspection, and emergency services for residential and commercial properties.",
+  telephone: "+18329618372",
+  email: "edwin_ibukun@outlook.com",
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: "7961 Fields Street",
+    addressLocality: "Houston",
+    addressRegion: "TX",
+    postalCode: "77028",
+    addressCountry: "US",
+  },
+  openingHoursSpecification: [
+    {
+      "@type": "OpeningHoursSpecification",
+      dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      opens: "07:00",
+      closes: "17:00",
+    },
+  ],
+  areaServed: {
+    "@type": "State",
+    name: "Texas",
+  },
+  hasCredential: {
+    "@type": "EducationalOccupationalCredential",
+    credentialCategory: "license",
+    name: "Texas Fire Sprinkler Certificate of Registration",
+    identifier: "SCR-G-3451926",
+    recognizedBy: {
+      "@type": "Organization",
+      name: "Texas Department of Insurance State Fire Marshal's Office",
+    },
+  },
+  contactPoint: {
+    "@type": "ContactPoint",
+    telephone: "+18329618372",
+    contactType: "customer service",
+    areaServed: "US-TX",
+    availableLanguage: "English",
+  },
+  makesOffer: [
+    {
+      "@type": "Offer",
+      itemOffered: {
+        "@type": "Service",
+        name: "Fire Sprinkler Installation and Inspection",
+        url: "https://texasfiresprinklers.com/services#FireSprinklerSystems",
+      },
+    },
+    {
+      "@type": "Offer",
+      itemOffered: {
+        "@type": "Service",
+        name: "Fire Extinguisher Services",
+        url: "https://texasfiresprinklers.com/services#FireExtinguisherServices",
+      },
+    },
+    {
+      "@type": "Offer",
+      itemOffered: {
+        "@type": "Service",
+        name: "Fire Suppression Systems",
+        url: "https://texasfiresprinklers.com/services#FireSuppressionSystems",
+      },
+    },
+    {
+      "@type": "Offer",
+      itemOffered: {
+        "@type": "Service",
+        name: "24/7 Emergency Fire Protection Service",
+        url: "https://texasfiresprinklers.com/services#EmergencyService",
+      },
+    },
+  ],
 };
 
 export default function RootLayout({
@@ -25,6 +123,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="h-full">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
+        />
+      </head>
       <body className="min-h-full flex flex-col">
         <Navbar />
         <main className="flex-1">{children}</main>

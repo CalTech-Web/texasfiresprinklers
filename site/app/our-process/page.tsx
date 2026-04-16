@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Our Fire Protection Process | Texas NFPA 25 Compliance",
+  title: "Fire Protection Process in Texas",
   description:
     "See how E&R Ibukun LLC's four-step fire protection process delivers NFPA 25 compliant installations and inspections across Texas, from site evaluation to final certification.",
 };

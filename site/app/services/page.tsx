@@ -204,7 +204,7 @@ export default function ServicesPage() {
           <div className="text-center mb-10">
             <h2 className="text-3xl font-bold mb-3">Industries We Serve</h2>
             <p className="text-red-200 max-w-2xl mx-auto text-sm">
-              From office towers to residential homes, E&amp;R Ibukun LLC protects every property type across Texas.
+              Restaurants, data centers, warehouses, offices, and homes. Each occupancy type has different code requirements. We handle them all.
             </p>
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4 text-center">

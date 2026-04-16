@@ -13,13 +13,13 @@ const services = [
   {
     id: "FireSprinklerSystems",
     title: "Fire Sprinkler Systems",
-    desc: "Custom design, installation, and NFPA 25 inspections for residential and commercial properties across Texas.",
+    desc: "Custom design, installation, and NFPA 25 inspections. State documentation and fire marshal reports filed on every job.",
     img: "/products/fire-sprinkler-spraying.png",
   },
   {
     id: "FireExtinguisherServices",
     title: "Fire Extinguisher Services",
-    desc: "Annual inspections, hydrostatic testing, recharging, and PASS training so your team is always prepared.",
+    desc: "Annual inspections, 6-year maintenance, hydrostatic testing, on-site recharging, and PASS training for your staff.",
     img: "/products/fire-extinguishers-inspection.png",
   },
   {
@@ -274,7 +274,7 @@ export default function HomePage() {
           <div className="text-center mb-10">
             <h2 className="text-3xl sm:text-4xl font-bold mb-3">Our Work Across Texas</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              From commercial kitchens to office ceilings, our certified technicians protect properties of every type across the Lone Star State.
+              Restaurants, offices, server rooms, warehouses. Each one has a different system. Each one has to work.
             </p>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">

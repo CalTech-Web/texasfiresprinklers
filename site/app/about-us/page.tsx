@@ -60,9 +60,6 @@ export default function AboutPage() {
             <p className="text-gray-700 leading-relaxed">
               Edwin Ibukun started E&R Ibukun LLC because fire protection in Texas needed someone willing to go where the property was, handle the documentation, and do the job right. A Houston base, statewide reach, and a no-shortcuts policy on compliance. That is the standard he set.
             </p>
-            <blockquote className="mt-6 border-l-4 pl-4 italic text-gray-600" style={{ borderColor: "#800A03" }}>
-              &ldquo;Certified experts dedicated to your protection.&rdquo;
-            </blockquote>
           </div>
         </div>
       </section>

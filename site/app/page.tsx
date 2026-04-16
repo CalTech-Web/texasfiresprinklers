@@ -36,12 +36,36 @@ const services = [
 ];
 
 const differentiators = [
-  { icon: "🗺️", title: "All of Texas", desc: "Statewide dispatch covering every Texas zip code, not limited to a single metro area." },
-  { icon: "📋", title: "Licensed & Insured", desc: "Certified technicians holding Texas Fire Sprinkler Registration SCR-G-3451926." },
-  { icon: "✅", title: "NFPA 25 Compliant", desc: "Every job meets NFPA and Texas state code. We handle all state documentation and fire marshal reports." },
-  { icon: "⚡", title: "24/7 Emergency", desc: "Fire system failures do not wait for business hours. We dispatch around the clock." },
-  { icon: "🔧", title: "Clean Work Guarantee", desc: "No mess left behind. Direct communication with real expert technicians, not call centers." },
-  { icon: "📱", title: "Mobile Service Teams", desc: "Our technicians come to your location. No need to transport equipment or leave your facility." },
+  {
+    svgPath: "M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z",
+    title: "All of Texas",
+    desc: "Statewide dispatch covering every Texas zip code, not limited to a single metro area.",
+  },
+  {
+    svgPath: "M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z",
+    title: "Licensed & Insured",
+    desc: "Certified technicians holding Texas Fire Sprinkler Registration SCR-G-3451926.",
+  },
+  {
+    svgPath: "M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z",
+    title: "NFPA 25 Compliant",
+    desc: "Every job meets NFPA and Texas state code. We handle all state documentation and fire marshal reports.",
+  },
+  {
+    svgPath: "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z",
+    title: "24/7 Emergency",
+    desc: "Fire system failures do not wait for business hours. We dispatch around the clock.",
+  },
+  {
+    svgPath: "M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z",
+    title: "Clean Work Guarantee",
+    desc: "No mess left behind. Direct communication with real expert technicians, not call centers.",
+  },
+  {
+    svgPath: "M20 8h-3V4H3c-1.1 0-2 .9-2 2v11h2c0 1.66 1.34 3 3 3s3-1.34 3-3h6c0 1.66 1.34 3 3 3s3-1.34 3-3h2v-5l-3-4zM6 18.5c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm13.5-9l1.96 2.5H17V9.5h2.5zm-1.5 9c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5z",
+    title: "Mobile Service Teams",
+    desc: "Our technicians come to your location. No need to transport equipment or leave your facility.",
+  },
 ];
 
 const processSteps = [
@@ -158,14 +182,22 @@ export default function HomePage() {
               A higher standard of fire life safety, backed by state licensing, NFPA compliance, and statewide coverage.
             </p>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {differentiators.map((d) => (
-              <div key={d.title} className="flex gap-4">
-                <span className="text-3xl flex-shrink-0">{d.icon}</span>
-                <div>
-                  <h3 className="font-bold text-lg mb-1" style={{ color: "#800A03" }}>{d.title}</h3>
-                  <p className="text-gray-600 text-sm leading-relaxed">{d.desc}</p>
+              <div
+                key={d.title}
+                className="bg-white border border-gray-200 rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow"
+              >
+                <div
+                  className="w-12 h-12 rounded-lg flex items-center justify-center mb-4"
+                  style={{ backgroundColor: "#EFF6F9" }}
+                >
+                  <svg viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6" style={{ color: "#800A03" }}>
+                    <path d={d.svgPath} />
+                  </svg>
                 </div>
+                <h3 className="font-bold text-lg mb-2" style={{ color: "#800A03" }}>{d.title}</h3>
+                <p className="text-gray-600 text-sm leading-relaxed">{d.desc}</p>
               </div>
             ))}
           </div>

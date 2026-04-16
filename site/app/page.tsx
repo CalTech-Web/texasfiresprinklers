@@ -270,19 +270,31 @@ export default function HomePage() {
       {/* Gallery strip */}
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-10">
+            <h2 className="text-3xl sm:text-4xl font-bold mb-3">Our Work Across Texas</h2>
+            <p className="text-gray-600 max-w-2xl mx-auto">
+              From commercial kitchens to office ceilings, our certified technicians protect properties of every type across the Lone Star State.
+            </p>
+          </div>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-            <div className="relative h-52 rounded overflow-hidden">
-              <Image src="/gallery/fire-sprinkler-ceiling-office.png" alt="Fire sprinkler ceiling installation" fill className="object-cover" />
-            </div>
-            <div className="relative h-52 rounded overflow-hidden">
-              <Image src="/gallery/fire-extinguishers-compartment.jpeg" alt="Fire extinguisher compartment" fill className="object-cover" />
-            </div>
-            <div className="relative h-52 rounded overflow-hidden">
-              <Image src="/gallery/commercial-kitchen-suppression.png" alt="Commercial kitchen fire suppression" fill className="object-cover" />
-            </div>
-            <div className="relative h-52 rounded overflow-hidden">
-              <Image src="/gallery/emergency-service-truck.png" alt="Emergency fire protection service truck" fill className="object-cover" />
-            </div>
+            {[
+              { src: "/gallery/fire-sprinkler-ceiling-office.png", alt: "Fire sprinkler ceiling installation", caption: "Sprinkler Installation" },
+              { src: "/gallery/fire-extinguishers-compartment.jpeg", alt: "Fire extinguisher compartment", caption: "Extinguisher Service" },
+              { src: "/gallery/commercial-kitchen-suppression.png", alt: "Commercial kitchen fire suppression", caption: "Kitchen Suppression" },
+              { src: "/gallery/emergency-service-truck.png", alt: "Emergency fire protection service truck", caption: "24/7 Emergency Response" },
+            ].map((photo) => (
+              <div key={photo.src} className="relative h-52 rounded overflow-hidden group">
+                <Image
+                  src={photo.src}
+                  alt={photo.alt}
+                  fill
+                  className="object-cover transition-transform duration-500 group-hover:scale-105"
+                />
+                <div className="absolute inset-0 transition-opacity duration-300 opacity-0 group-hover:opacity-100 flex items-end" style={{ background: "linear-gradient(to top, rgba(128,10,3,0.85) 0%, transparent 60%)" }}>
+                  <span className="text-white text-sm font-semibold px-3 pb-3">{photo.caption}</span>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </section>

@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Privacy Policy",
   description: "Privacy Policy for E&R Ibukun LLC, fire sprinkler contractor serving all of Texas.",
+  robots: { index: false, follow: true },
 };
 
 export default function PrivacyPolicyPage() {

@@ -8,6 +8,49 @@ export const metadata: Metadata = {
     "See how E&R Ibukun LLC's four-step fire protection process delivers NFPA 25 compliant installations and inspections across Texas, from site evaluation to final certification.",
 };
 
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://texasfiresprinklers.com" },
+    { "@type": "ListItem", position: 2, name: "Our Process", item: "https://texasfiresprinklers.com/our-process" },
+  ],
+};
+
+const howToSchema = {
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  name: "How E&R Ibukun LLC Delivers Fire Protection in Texas",
+  description:
+    "Four-step fire protection process delivering NFPA 25 compliant installations and inspections across Texas, from site evaluation to final certification.",
+  step: [
+    {
+      "@type": "HowToStep",
+      position: 1,
+      name: "Site Evaluation",
+      text: "We walk the property before anything else. Every zone, every head, every pipe run. If something does not meet Texas state code or NFPA 25, we flag it in the report before a fire marshal does.",
+    },
+    {
+      "@type": "HowToStep",
+      position: 2,
+      name: "System Design",
+      text: "A restaurant hood system and a server room suppression system are completely different designs. We spec the right system for your occupancy type, square footage, and hazard class. NFPA 25 and Texas state code are built into every layout.",
+    },
+    {
+      "@type": "HowToStep",
+      position: 3,
+      name: "Precision Implementation",
+      text: "We show up with everything the job requires. Technicians work around your schedule where possible. When we leave, the space is clean and the system is live.",
+    },
+    {
+      "@type": "HowToStep",
+      position: 4,
+      name: "Final Certification",
+      text: "You get the full paperwork package: digital records, state-required tagging, and any fire marshal reports the job requires. File it, forget it. Your property is covered.",
+    },
+  ],
+};
+
 const steps = [
   {
     num: "01",
@@ -42,6 +85,8 @@ const steps = [
 export default function ProcessPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }} />
       {/* Header */}
       <section style={{ backgroundColor: "#800A03" }} className="py-16 text-white text-center">
         <div className="max-w-4xl mx-auto px-4">

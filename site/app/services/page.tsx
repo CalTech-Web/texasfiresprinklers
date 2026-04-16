@@ -8,9 +8,89 @@ export const metadata: Metadata = {
     "E&R Ibukun LLC offers fire sprinkler installation and inspection, fire extinguisher services, fire suppression systems, and 24/7 emergency service across all of Texas. NFPA 25 compliant.",
 };
 
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://texasfiresprinklers.com" },
+    { "@type": "ListItem", position: 2, name: "Services", item: "https://texasfiresprinklers.com/services" },
+  ],
+};
+
+const servicesSchema = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  name: "Fire Protection Services in Texas",
+  url: "https://texasfiresprinklers.com/services",
+  itemListElement: [
+    {
+      "@type": "ListItem",
+      position: 1,
+      item: {
+        "@type": "Service",
+        name: "Fire Sprinkler Systems",
+        description:
+          "Custom design, installation, and NFPA 25 inspection of fire sprinkler systems for residential and commercial properties across Texas. State documentation and fire marshal reports filed on every job.",
+        serviceType: "Fire Sprinkler Installation and Inspection",
+        provider: { "@type": "LocalBusiness", name: "E&R Ibukun LLC", telephone: "+18329618372" },
+        areaServed: { "@type": "State", name: "Texas" },
+        url: "https://texasfiresprinklers.com/services#FireSprinklerSystems",
+      },
+    },
+    {
+      "@type": "ListItem",
+      position: 2,
+      item: {
+        "@type": "Service",
+        name: "Fire Extinguisher Services",
+        description:
+          "Annual inspections, 6-year internal examinations, hydrostatic testing, on-site recharging, and PASS employee training for fire extinguishers across Texas.",
+        serviceType: "Fire Extinguisher Inspection and Maintenance",
+        provider: { "@type": "LocalBusiness", name: "E&R Ibukun LLC", telephone: "+18329618372" },
+        areaServed: { "@type": "State", name: "Texas" },
+        url: "https://texasfiresprinklers.com/services#FireExtinguisherServices",
+      },
+    },
+    {
+      "@type": "ListItem",
+      position: 3,
+      item: {
+        "@type": "Service",
+        name: "Fire Suppression Systems",
+        description:
+          "Installation and service of kitchen hood systems, FM-200 clean agent, CO2, and dry chemical suppression systems for restaurants, data centers, and industrial facilities in Texas.",
+        serviceType: "Fire Suppression System Installation",
+        provider: { "@type": "LocalBusiness", name: "E&R Ibukun LLC", telephone: "+18329618372" },
+        areaServed: { "@type": "State", name: "Texas" },
+        url: "https://texasfiresprinklers.com/services#FireSuppressionSystems",
+      },
+    },
+    {
+      "@type": "ListItem",
+      position: 4,
+      item: {
+        "@type": "Service",
+        name: "24/7 Emergency Fire Protection Service",
+        description:
+          "Around-the-clock emergency dispatch across Texas for burst pipe repair, fire alarm silencing, system restoration after a fire, and on-site fire watch services.",
+        serviceType: "Emergency Fire Protection Service",
+        provider: { "@type": "LocalBusiness", name: "E&R Ibukun LLC", telephone: "+18329618372" },
+        areaServed: { "@type": "State", name: "Texas" },
+        url: "https://texasfiresprinklers.com/services#EmergencyService",
+        availableChannel: {
+          "@type": "ServiceChannel",
+          servicePhone: { "@type": "ContactPoint", telephone: "+18329618372", contactType: "emergency", hoursAvailable: "Mo-Su 00:00-24:00" },
+        },
+      },
+    },
+  ],
+};
+
 export default function ServicesPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(servicesSchema) }} />
       {/* Page header */}
       <section style={{ backgroundColor: "#800A03" }} className="py-16 text-white text-center">
         <div className="max-w-4xl mx-auto px-4">

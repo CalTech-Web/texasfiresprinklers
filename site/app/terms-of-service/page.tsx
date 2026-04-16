@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Terms of Service",
   description: "Terms of Service for E&R Ibukun LLC, fire sprinkler contractor serving all of Texas.",
+  robots: { index: false, follow: true },
 };
 
 export default function TermsOfServicePage() {

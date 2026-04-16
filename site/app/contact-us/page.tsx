@@ -6,9 +6,51 @@ export const metadata: Metadata = {
     "Contact E&R Ibukun LLC for fire sprinkler installation, inspection, and emergency service across Texas. Call (832) 961-8372 or email us. Houston-based, Texas statewide coverage.",
 };
 
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://texasfiresprinklers.com" },
+    { "@type": "ListItem", position: 2, name: "Contact Us", item: "https://texasfiresprinklers.com/contact-us" },
+  ],
+};
+
+const contactPageSchema = {
+  "@context": "https://schema.org",
+  "@type": "ContactPage",
+  name: "Contact E&R Ibukun LLC",
+  url: "https://texasfiresprinklers.com/contact-us",
+  description:
+    "Contact E&R Ibukun LLC for fire sprinkler installation, inspection, and 24/7 emergency service across Texas.",
+  mainEntity: {
+    "@type": "LocalBusiness",
+    name: "E&R Ibukun LLC",
+    telephone: "+18329618372",
+    email: "edwin_ibukun@outlook.com",
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: "7961 Fields Street",
+      addressLocality: "Houston",
+      addressRegion: "TX",
+      postalCode: "77028",
+      addressCountry: "US",
+    },
+    openingHoursSpecification: [
+      {
+        "@type": "OpeningHoursSpecification",
+        dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        opens: "07:00",
+        closes: "17:00",
+      },
+    ],
+  },
+};
+
 export default function ContactPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(contactPageSchema) }} />
       {/* Header */}
       <section style={{ backgroundColor: "#800A03" }} className="py-16 text-white text-center">
         <div className="max-w-4xl mx-auto px-4">

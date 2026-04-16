@@ -3,14 +3,24 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Houston Fire Sprinkler Contractor",
+  title: "Licensed Texas Fire Sprinkler Contractor",
   description:
-    "E&R Ibukun LLC is a Houston-based, Texas-licensed fire protection company serving all of Texas. Learn about our mission, licensing, and commitment to fire life safety.",
+    "E&R Ibukun LLC is a Houston-based, Texas-licensed fire protection company serving all of Texas. License SCR-G-3451926 issued by the Texas Department of Insurance State Fire Marshal's Office.",
+};
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://texasfiresprinklers.com" },
+    { "@type": "ListItem", position: 2, name: "About Us", item: "https://texasfiresprinklers.com/about-us" },
+  ],
 };
 
 export default function AboutPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       {/* Header */}
       <section style={{ backgroundColor: "#800A03" }} className="py-16 text-white text-center">
         <div className="max-w-4xl mx-auto px-4">

@@ -58,7 +58,7 @@ export default function AboutPage() {
             <h3 className="text-2xl font-bold mb-1" style={{ color: "#800A03" }}>Edwin Ibukun</h3>
             <p className="text-gray-500 mb-4">Owner / Founder</p>
             <p className="text-gray-700 leading-relaxed">
-              Edwin Ibukun started E&R Ibukun LLC because fire protection in Texas needed someone willing to go where the property was, handle the documentation, and do the job right. A Houston base, statewide reach, and a no-shortcuts policy on compliance. That is the standard he set.
+              Edwin Ibukun started E&R Ibukun LLC because fire protection in Texas needed someone willing to go where the property was, handle the documentation, and do the job right. He built it out of Houston, committed to going wherever the job was and completing every job without shortcuts on compliance. That standard still holds.
             </p>
           </div>
         </div>
@@ -107,7 +107,7 @@ export default function AboutPage() {
           <h2 className="text-3xl font-bold text-center mb-10">What Sets Us Apart</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
-              { title: "Statewide Coverage", desc: "Every Texas zip code, including Gulf Coast, North Texas, and surrounding rural areas." },
+              { title: "Statewide Coverage", desc: "Houston base, statewide reach. Gulf Coast, North Texas, rural counties. Wherever the job is, we go." },
               { title: "Digital Diagnostics", desc: "System diagnostics run on modern equipment, not paper logs. Faster reads, fewer missed defects." },
               { title: "No Mess Left Behind", desc: "We stage equipment, do the work, and restore the site. Tools go back in the truck. The space looks like we were never there." },
               { title: "Real Expert Access", desc: "Direct communication with certified technicians, not call center representatives." },

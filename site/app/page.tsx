@@ -60,7 +60,7 @@ const differentiators = [
   {
     svgPath: "M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z",
     title: "Clean Work Guarantee",
-    desc: "No mess left behind. Direct communication with real expert technicians, not call centers.",
+    desc: "Tools go back in the truck when the job is done. No debris, no cleanup left for you.",
   },
   {
     svgPath: "M20 8h-3V4H3c-1.1 0-2 .9-2 2v11h2c0 1.66 1.34 3 3 3s3-1.34 3-3h6c0 1.66 1.34 3 3 3s3-1.34 3-3h2v-5l-3-4zM6 18.5c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm13.5-9l1.96 2.5H17V9.5h2.5zm-1.5 9c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5z",
@@ -70,8 +70,8 @@ const differentiators = [
 ];
 
 const processSteps = [
-  { num: "01", title: "Site Evaluation", desc: "Comprehensive audit of your current fire safety status, identifying any gaps in Texas code compliance." },
-  { num: "02", title: "System Design", desc: "We create a customized protection plan, selecting the right sprinklers, suppressants, or extinguishers for your layout." },
+  { num: "01", title: "Site Evaluation", desc: "Every zone, every head, every pipe run. We find what does not meet Texas code before the fire marshal does." },
+  { num: "02", title: "System Design", desc: "Your occupancy type and hazard class determine the system. We design to NFPA 25 and Texas state code from the start." },
   { num: "03", title: "Precision Implementation", desc: "Technicians arrive with what the job needs and work around your schedule where possible. When we leave, the system is live and the space is clean." },
   { num: "04", title: "Final Certification", desc: "You get digital records, state-required tagging, and any fire marshal reports the job requires. File it and forget it." },
 ];

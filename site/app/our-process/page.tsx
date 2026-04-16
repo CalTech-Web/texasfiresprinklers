@@ -167,7 +167,7 @@ export default function ProcessPage() {
         <div className="max-w-3xl mx-auto px-4">
           <h2 className="text-3xl font-bold mb-4">Start with a Free Site Evaluation</h2>
           <p className="text-gray-600 mb-8">
-            Call or text (832) 961-8372 to schedule your site evaluation. We will take it from there.
+            Call or text (832) 961-8372 to get scheduled. We walk the property, build the plan, do the work, and file the paperwork.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

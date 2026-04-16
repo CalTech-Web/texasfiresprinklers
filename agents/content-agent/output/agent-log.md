@@ -105,3 +105,34 @@ Five targeted fixes across three pages, committed and deployed.
 **Services page**
 - Industries We Serve subtitle: replaced generic "From office towers to residential homes, E&R Ibukun LLC protects every property type across Texas" with concrete occupancy types plus a code-requirement framing
 [2026-04-15 17:50:00] Run #4 finished
+Run #4 complete. Deployed to production (Ready). Five targeted fixes across three files:
+
+**About page**
+- Removed the founder blockquote "Certified experts dedicated to your protection" — the only surviving piece of original boilerplate, and the worst place for it since it was attributed as Edwin's own words
+
+**Homepage**
+- Gallery subtitle: dropped the "From X to Y" construction, replaced with a concrete list of property types plus a stakes line
+- Fire Sprinkler card: swapped geographic scope close ("residential and commercial properties across Texas") for a concrete documentation benefit
+- Fire Extinguisher card: cut the soft "so your team is always prepared" closer, added the specific 6-year maintenance detail
+
+**Services page**
+- Industries subtitle: replaced the generic opener with occupancy types and a code-requirement framing
+[2026-04-15 17:35:16] Run #4 finished
+[2026-04-15 17:35:21] Run #5 starting (model: sonnet)
+Six targeted fixes across four pages, committed and deployed.
+
+**Homepage**
+- Process step 01 mini-desc: replaced the corporate/passive "Comprehensive audit of your current fire safety status, identifying any gaps in Texas code compliance" with a concrete two-sentence version matching the specificity of the full process page
+- Process step 02 mini-desc: replaced the flat "We create a customized protection plan, selecting the right sprinklers, suppressants, or extinguishers for your layout" with a hazard-class-focused line that names the actual decision criteria
+- Clean Work Guarantee differentiator: the card was conflating two separate promises (no mess + no call centers); removed the call-center line and replaced with a physical, visual description of what clean means
+
+**About page**
+- Edwin bio second/third sentence: "A Houston base, statewide reach, and a no-shortcuts policy on compliance. That is the standard he set." was a comma-separated list dressed as prose; rewritten to flow as a single human thought
+- Statewide Coverage card desc: "Every Texas zip code, including Gulf Coast, North Texas, and surrounding rural areas" reads like a bullet; replaced with a punchy three-part rhythm that ends on a verb
+
+**Services page**
+- CTA paragraph: "Call or text for a site evaluation. We cover every Texas zip code and handle all required state documentation when the job is done." was generic and repeated copy from elsewhere; cut to one tight line
+
+**Our Process page**
+- CTA close: "We will take it from there" dropped; replaced with a four-item list of what actually happens after the call
+[2026-04-15 17:55:00] Run #5 finished

@@ -173,6 +173,34 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Credentials strip */}
+      <section style={{ backgroundColor: "#111827" }} className="py-14 text-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 text-center">
+            <div className="flex flex-col items-center">
+              <span className="text-4xl sm:text-5xl font-extrabold mb-2" style={{ color: "#C3071F" }}>24/7</span>
+              <span className="text-sm font-semibold uppercase tracking-wide text-gray-300">Emergency Dispatch</span>
+              <span className="text-xs text-gray-500 mt-1">Any Hour. Any Day.</span>
+            </div>
+            <div className="flex flex-col items-center">
+              <span className="text-4xl sm:text-5xl font-extrabold mb-2" style={{ color: "#C3071F" }}>254</span>
+              <span className="text-sm font-semibold uppercase tracking-wide text-gray-300">Texas Counties</span>
+              <span className="text-xs text-gray-500 mt-1">Every Zip Code Served</span>
+            </div>
+            <div className="flex flex-col items-center">
+              <span className="text-4xl sm:text-5xl font-extrabold mb-2" style={{ color: "#C3071F" }}>NFPA</span>
+              <span className="text-sm font-semibold uppercase tracking-wide text-gray-300">25 Compliant</span>
+              <span className="text-xs text-gray-500 mt-1">Every Job, Every Time</span>
+            </div>
+            <div className="flex flex-col items-center">
+              <span className="text-2xl sm:text-3xl font-extrabold mb-2 leading-tight" style={{ color: "#C3071F" }}>SCR&#8209;G&#8209;3451926</span>
+              <span className="text-sm font-semibold uppercase tracking-wide text-gray-300">State Licensed</span>
+              <span className="text-xs text-gray-500 mt-1">Texas Dept. of Insurance</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Why Choose Us */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

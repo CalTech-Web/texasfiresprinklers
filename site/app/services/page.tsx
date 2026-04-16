@@ -201,17 +201,42 @@ export default function ServicesPage() {
       {/* Industries */}
       <section style={{ backgroundColor: "#800A03" }} className="py-16 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center mb-10">Industries We Serve</h2>
+          <div className="text-center mb-10">
+            <h2 className="text-3xl font-bold mb-3">Industries We Serve</h2>
+            <p className="text-red-200 max-w-2xl mx-auto text-sm">
+              From office towers to residential homes, E&amp;R Ibukun LLC protects every property type across Texas.
+            </p>
+          </div>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4 text-center">
             {[
-              "Commercial Offices & Retail",
-              "Industrial Facilities",
-              "Restaurants & Commercial Kitchens",
-              "Data Centers & Server Rooms",
-              "Residential Properties",
+              {
+                label: "Commercial Offices & Retail",
+                svgPath: "M4 4h16v2H4V4zm0 4h10v2H4V8zm0 4h16v2H4v-2zm0 4h10v2H4v-2zM20 8h-4v12h4V8zm-2 10v-8h2v8h-2z",
+              },
+              {
+                label: "Industrial Facilities",
+                svgPath: "M15 9H9v6h6V9zm-2 4h-2v-2h2v2zm8-2V9h-2V7c0-1.1-.9-2-2-2H3c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2v-2h2v-2h-2v-2h2zm-4 4H3V7h14v8z",
+              },
+              {
+                label: "Restaurants & Commercial Kitchens",
+                svgPath: "M11 9H9V2H7v7H5V2H3v7c0 2.12 1.66 3.84 3.75 3.97V22h2.5v-9.03C11.34 12.84 13 11.12 13 9V2h-2v7zm5-3v8h2.5v8H21V2c-2.76 0-5 2.24-5 4z",
+              },
+              {
+                label: "Data Centers & Server Rooms",
+                svgPath: "M20 2H4c-1.1 0-2 .9-2 2v4c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 6H4V4h16v4zM4 14h16c1.1 0 2-.9 2-2v-1H2v1c0 1.1.9 2 2 2zm16 2H4c-1.1 0-2 .9-2 2v4c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2v-4c0-1.1-.9-2-2-2zm0 6H4v-4h16v4zM6 5h2v2H6zm0 10h2v2H6zm0-5h2v2H6z",
+              },
+              {
+                label: "Residential Properties",
+                svgPath: "M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z",
+              },
             ].map((ind) => (
-              <div key={ind} className="bg-red-900 rounded-lg p-4">
-                <p className="font-semibold text-sm">{ind}</p>
+              <div key={ind.label} className="bg-red-900 rounded-xl p-5 flex flex-col items-center gap-3 hover:bg-red-800 transition-colors">
+                <div className="w-12 h-12 rounded-full flex items-center justify-center" style={{ backgroundColor: "rgba(195,7,31,0.35)" }}>
+                  <svg viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6 text-red-200">
+                    <path d={ind.svgPath} />
+                  </svg>
+                </div>
+                <p className="font-semibold text-sm leading-snug">{ind.label}</p>
               </div>
             ))}
           </div>

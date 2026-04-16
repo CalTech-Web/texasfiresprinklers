@@ -184,6 +184,7 @@ export default function HomePage() {
           fill
           className="object-cover"
           priority
+          fetchPriority="high"
         />
         <div className="absolute inset-0" style={{ backgroundColor: "rgba(0,0,0,0.65)" }} />
         <div className="relative z-10 text-center text-white px-4 max-w-4xl mx-auto">

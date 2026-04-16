@@ -72,8 +72,8 @@ const differentiators = [
 const processSteps = [
   { num: "01", title: "Site Evaluation", desc: "Comprehensive audit of your current fire safety status, identifying any gaps in Texas code compliance." },
   { num: "02", title: "System Design", desc: "We create a customized protection plan, selecting the right sprinklers, suppressants, or extinguishers for your layout." },
-  { num: "03", title: "Precision Implementation", desc: "Certified technicians execute installation or maintenance with minimal disruption to daily operations." },
-  { num: "04", title: "Final Certification", desc: "Full digital documentation and state-required tagging provided to prove your property is 100% compliant." },
+  { num: "03", title: "Precision Implementation", desc: "Technicians arrive with what the job needs and work around your schedule where possible. When we leave, the system is live and the space is clean." },
+  { num: "04", title: "Final Certification", desc: "You get digital records, state-required tagging, and any fire marshal reports the job requires. File it and forget it." },
 ];
 
 export default function HomePage() {

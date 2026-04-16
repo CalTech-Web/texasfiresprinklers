@@ -17,7 +17,7 @@ export default function AboutPage() {
           <p className="uppercase tracking-widest text-sm mb-3 text-red-200">Who We Are</p>
           <h1 className="text-4xl sm:text-5xl font-bold mb-4">About E&R Ibukun LLC</h1>
           <p className="text-red-100 text-lg max-w-2xl mx-auto">
-            Certified experts dedicated to your protection. Houston-based, Texas-licensed, and serving every zip code in the Lone Star State.
+            Houston-based, Texas-licensed, statewide dispatch. Mobile teams cover every zip code in the Lone Star State.
           </p>
         </div>
       </section>
@@ -82,7 +82,7 @@ export default function AboutPage() {
             <div>
               <h2 className="text-3xl sm:text-4xl font-bold mb-6">Licensed &amp; Compliant in Texas</h2>
               <p className="text-gray-700 leading-relaxed mb-6">
-                Our state registration ensures every job meets Texas standards. We handle all required documentation so you never have to worry about compliance.
+                That registration covers every job we take on. We handle all required documentation and local fire marshal filings before we leave the property.
               </p>
               <div className="space-y-4">
                 {[
@@ -112,7 +112,7 @@ export default function AboutPage() {
             {[
               { title: "Statewide Coverage", desc: "Every Texas zip code, including Gulf Coast, North Texas, and surrounding rural areas." },
               { title: "Digital Diagnostics", desc: "System diagnostics run on modern equipment, not paper logs. Faster reads, fewer missed defects." },
-              { title: "No Mess Left Behind", desc: "Clean work guarantee on every installation and maintenance job." },
+              { title: "No Mess Left Behind", desc: "We stage equipment, do the work, and restore the site. No tools left behind, no cleanup for you." },
               { title: "Real Expert Access", desc: "Direct communication with certified technicians, not call center representatives." },
             ].map((item) => (
               <div key={item.title} className="bg-red-900 rounded-lg p-6">
@@ -129,7 +129,7 @@ export default function AboutPage() {
         <div className="max-w-3xl mx-auto px-4">
           <h2 className="text-3xl font-bold mb-4">Ready to Work With Us?</h2>
           <p className="text-gray-600 mb-8">
-            Call or text (832) 961-8372 to schedule a site visit. We cover all of Texas and handle every compliance document from start to finish.
+            Call or text (832) 961-8372 to schedule a site visit. We cover all of Texas and file every compliance document when the job is done.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

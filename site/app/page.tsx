@@ -251,7 +251,7 @@ export default function HomePage() {
                 className="bg-white rounded-lg overflow-hidden shadow hover:shadow-lg transition-shadow group"
               >
                 <div className="relative h-48">
-                  <Image src={s.img} alt={s.title} fill className="object-cover group-hover:scale-105 transition-transform duration-300" />
+                  <Image src={s.img} alt={s.title} fill quality={60} sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw" className="object-cover group-hover:scale-105 transition-transform duration-300" />
                 </div>
                 <div className="p-5">
                   <h3 className="font-bold text-lg mb-2" style={{ color: "#800A03" }}>{s.title}</h3>

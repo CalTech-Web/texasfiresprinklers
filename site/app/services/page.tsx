@@ -6,6 +6,15 @@ export const metadata: Metadata = {
   title: "Fire Sprinkler & Suppression Services in Texas",
   description:
     "E&R Ibukun LLC offers fire sprinkler installation and inspection, fire extinguisher services, fire suppression systems, and 24/7 emergency service across all of Texas. NFPA 25 compliant.",
+  alternates: {
+    canonical: "/services",
+  },
+  openGraph: {
+    title: "Fire Sprinkler & Suppression Services in Texas | E&R Ibukun LLC",
+    description:
+      "Fire sprinkler installation and inspection, extinguisher services, suppression systems, and 24/7 emergency dispatch across all of Texas. Licensed contractor SCR-G-3451926.",
+    url: "https://texasfiresprinklers.com/services",
+  },
 };
 
 const breadcrumbSchema = {

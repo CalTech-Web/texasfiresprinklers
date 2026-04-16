@@ -51,6 +51,11 @@ const localBusinessSchema = {
     postalCode: "77028",
     addressCountry: "US",
   },
+  geo: {
+    "@type": "GeoCoordinates",
+    latitude: 29.797,
+    longitude: -95.276,
+  },
   openingHoursSpecification: [
     {
       "@type": "OpeningHoursSpecification",

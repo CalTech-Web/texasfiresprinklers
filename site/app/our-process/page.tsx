@@ -3,9 +3,18 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Fire Protection Process in Texas",
+  title: "Fire Sprinkler Service Process in Texas",
   description:
-    "See how E&R Ibukun LLC's four-step fire protection process delivers NFPA 25 compliant installations and inspections across Texas, from site evaluation to final certification.",
+    "See how E&R Ibukun LLC's four-step process delivers NFPA 25 compliant fire sprinkler installations and inspections across Texas, from site evaluation to final state certification.",
+  alternates: {
+    canonical: "/our-process",
+  },
+  openGraph: {
+    title: "Fire Sprinkler Service Process in Texas | E&R Ibukun LLC",
+    description:
+      "Four-step process: site evaluation, custom system design, installation, and final state certification. NFPA 25 compliant. Licensed contractor SCR-G-3451926.",
+    url: "https://texasfiresprinklers.com/our-process",
+  },
 };
 
 const breadcrumbSchema = {

@@ -6,6 +6,15 @@ export const metadata: Metadata = {
   title: "Licensed Texas Fire Sprinkler Contractor",
   description:
     "E&R Ibukun LLC is a Houston-based, Texas-licensed fire protection company serving all of Texas. License SCR-G-3451926 issued by the Texas Department of Insurance State Fire Marshal's Office.",
+  alternates: {
+    canonical: "/about-us",
+  },
+  openGraph: {
+    title: "About E&R Ibukun LLC | Licensed Texas Fire Sprinkler Contractor",
+    description:
+      "Houston-based fire protection company serving all of Texas. Texas Fire Sprinkler Certificate of Registration SCR-G-3451926 issued by the Texas Department of Insurance State Fire Marshal's Office.",
+    url: "https://texasfiresprinklers.com/about-us",
+  },
 };
 
 const breadcrumbSchema = {
@@ -17,10 +26,24 @@ const breadcrumbSchema = {
   ],
 };
 
+const personSchema = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  name: "Edwin Ibukun",
+  jobTitle: "Owner / Founder",
+  worksFor: {
+    "@type": "Organization",
+    name: "E&R Ibukun LLC",
+    url: "https://texasfiresprinklers.com",
+  },
+  url: "https://texasfiresprinklers.com/about-us",
+};
+
 export default function AboutPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema) }} />
       {/* Header */}
       <section style={{ backgroundColor: "#800A03" }} className="py-16 text-white text-center">
         <div className="max-w-4xl mx-auto px-4">

@@ -80,3 +80,28 @@ Six targeted copy fixes across four pages, committed and deployed.
 **About page**
 - No Mess Left Behind differentiator: "no cleanup for you" replaced with a concrete visual finish ("Tools go back in the truck. The space looks like we were never there.")
 [2026-04-15 17:35:00] Run #3 finished
+Run #3 complete. Six targeted fixes across four pages, deployed to production (Ready).
+
+**What changed:**
+
+- **Homepage / 24/7 Emergency card** — replaced a flat list of capabilities with two concrete failure scenarios that land faster
+- **Homepage / Mobile Service Teams** — clarified the customer benefit (no shutdown, no moving equipment) instead of the vague "no need to transport equipment"
+- **Services CTA** — removed the "from start to finish" cliché that survived the prior pass
+- **Contact / Book Online copy** — three short direct sentences instead of one generic paragraph
+- **Contact / Emergency box** — stripped "any time of day or night" (redundant with 24/7); four-item list + one clean close
+- **About / No Mess Left Behind** — replaced soft "no cleanup for you" with a visual: tools go back in the truck, space looks untouched
+[2026-04-15 17:27:44] Run #3 finished
+[2026-04-15 17:27:49] Run #4 starting (model: sonnet)
+Five targeted fixes across three pages, committed and deployed.
+
+**About page**
+- Edwin leadership section: removed the original marketing tagline blockquote ("Certified experts dedicated to your protection") that was sitting as a founder direct quote; it was the only piece of boilerplate that survived all prior passes, and it was inconsistent with the natural voice established everywhere else
+
+**Homepage**
+- Gallery section subtitle: replaced "From commercial kitchens to office ceilings, our certified technicians protect properties of every type across the Lone Star State" with a concrete list and a stakes line ("Each one has to work")
+- Fire Sprinkler service card: removed generic geographic scope close, replaced with concrete documentation benefit ("State documentation and fire marshal reports filed on every job")
+- Fire Extinguisher service card: removed soft "so your team is always prepared" close, added the specific "6-year maintenance" detail, changed "PASS training for your team" to "for your staff"
+
+**Services page**
+- Industries We Serve subtitle: replaced generic "From office towers to residential homes, E&R Ibukun LLC protects every property type across Texas" with concrete occupancy types plus a code-requirement framing
+[2026-04-15 17:50:00] Run #4 finished

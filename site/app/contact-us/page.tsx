@@ -4,6 +4,13 @@ export const metadata: Metadata = {
   title: "Contact a Texas Fire Sprinkler Contractor",
   description:
     "Contact E&R Ibukun LLC for fire sprinkler installation, inspection, and emergency service across Texas. Call (832) 961-8372 or email us. Houston-based, Texas statewide coverage.",
+  keywords: [
+    "fire sprinkler contractor contact Texas",
+    "fire protection services Houston",
+    "fire sprinkler emergency Texas",
+    "schedule fire sprinkler inspection Texas",
+    "E&R Ibukun LLC contact",
+  ],
   alternates: {
     canonical: "/contact-us",
   },

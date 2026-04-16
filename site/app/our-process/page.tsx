@@ -6,6 +6,14 @@ export const metadata: Metadata = {
   title: "Fire Sprinkler Service Process in Texas",
   description:
     "See how E&R Ibukun LLC's four-step process delivers NFPA 25 compliant fire sprinkler installations and inspections across Texas, from site evaluation to final state certification.",
+  keywords: [
+    "fire sprinkler installation process Texas",
+    "NFPA 25 compliance Texas",
+    "fire marshal compliance Texas",
+    "fire sprinkler inspection process",
+    "fire protection system design Texas",
+    "fire system certification Texas",
+  ],
   alternates: {
     canonical: "/our-process",
   },

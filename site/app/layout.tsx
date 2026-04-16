@@ -64,10 +64,19 @@ const localBusinessSchema = {
       closes: "17:00",
     },
   ],
-  areaServed: {
-    "@type": "State",
-    name: "Texas",
-  },
+  areaServed: [
+    { "@type": "State", name: "Texas" },
+    { "@type": "City", name: "Houston", containedInPlace: { "@type": "State", name: "Texas" } },
+    { "@type": "City", name: "Dallas", containedInPlace: { "@type": "State", name: "Texas" } },
+    { "@type": "City", name: "Austin", containedInPlace: { "@type": "State", name: "Texas" } },
+    { "@type": "City", name: "San Antonio", containedInPlace: { "@type": "State", name: "Texas" } },
+    { "@type": "City", name: "Fort Worth", containedInPlace: { "@type": "State", name: "Texas" } },
+    { "@type": "City", name: "El Paso", containedInPlace: { "@type": "State", name: "Texas" } },
+    { "@type": "City", name: "Arlington", containedInPlace: { "@type": "State", name: "Texas" } },
+    { "@type": "City", name: "Corpus Christi", containedInPlace: { "@type": "State", name: "Texas" } },
+    { "@type": "City", name: "Plano", containedInPlace: { "@type": "State", name: "Texas" } },
+    { "@type": "City", name: "Lubbock", containedInPlace: { "@type": "State", name: "Texas" } },
+  ],
   hasCredential: {
     "@type": "EducationalOccupationalCredential",
     credentialCategory: "license",
@@ -78,13 +87,34 @@ const localBusinessSchema = {
       name: "Texas Department of Insurance State Fire Marshal's Office",
     },
   },
-  contactPoint: {
-    "@type": "ContactPoint",
-    telephone: "+18329618372",
-    contactType: "customer service",
-    areaServed: "US-TX",
-    availableLanguage: "English",
-  },
+  contactPoint: [
+    {
+      "@type": "ContactPoint",
+      telephone: "+18329618372",
+      contactType: "customer service",
+      areaServed: "US-TX",
+      availableLanguage: "English",
+      hoursAvailable: {
+        "@type": "OpeningHoursSpecification",
+        dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        opens: "07:00",
+        closes: "17:00",
+      },
+    },
+    {
+      "@type": "ContactPoint",
+      telephone: "+18329618372",
+      contactType: "emergency",
+      areaServed: "US-TX",
+      availableLanguage: "English",
+      hoursAvailable: {
+        "@type": "OpeningHoursSpecification",
+        dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+        opens: "00:00",
+        closes: "23:59",
+      },
+    },
+  ],
   makesOffer: [
     {
       "@type": "Offer",
@@ -129,6 +159,10 @@ export default function RootLayout({
   return (
     <html lang="en" className="h-full">
       <head>
+        <meta name="geo.region" content="US-TX" />
+        <meta name="geo.placename" content="Houston, Texas" />
+        <meta name="geo.position" content="29.797;-95.276" />
+        <meta name="ICBM" content="29.797, -95.276" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}

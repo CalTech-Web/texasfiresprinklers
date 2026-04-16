@@ -6,6 +6,15 @@ export const metadata: Metadata = {
   title: "Licensed Texas Fire Sprinkler Contractor",
   description:
     "E&R Ibukun LLC is a Houston-based, Texas-licensed fire protection company serving all of Texas. License SCR-G-3451926 issued by the Texas Department of Insurance State Fire Marshal's Office.",
+  keywords: [
+    "licensed fire sprinkler contractor Texas",
+    "Texas fire sprinkler registration",
+    "SCR-G-3451926",
+    "fire protection company Houston",
+    "Edwin Ibukun fire sprinkler",
+    "NFPA 25 contractor Texas",
+    "Texas Department of Insurance fire sprinkler",
+  ],
   alternates: {
     canonical: "/about-us",
   },
@@ -31,6 +40,17 @@ const personSchema = {
   "@type": "Person",
   name: "Edwin Ibukun",
   jobTitle: "Owner / Founder",
+  description:
+    "Owner and founder of E&R Ibukun LLC, a Texas-licensed fire protection company holding Certificate of Registration SCR-G-3451926 from the Texas Department of Insurance State Fire Marshal's Office. Based in Houston, TX, serving all of Texas.",
+  knowsAbout: [
+    "Fire Sprinkler System Installation",
+    "NFPA 25 Inspection Standards",
+    "Texas Fire Protection Codes",
+    "Fire Suppression System Design",
+    "Fire Extinguisher Inspection and Service",
+    "Texas State Fire Marshal Compliance",
+    "Backflow Prevention Testing",
+  ],
   worksFor: {
     "@type": "Organization",
     name: "E&R Ibukun LLC",

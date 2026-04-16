@@ -6,6 +6,16 @@ export const metadata: Metadata = {
   title: "Fire Sprinkler & Suppression Services in Texas",
   description:
     "E&R Ibukun LLC offers fire sprinkler installation and inspection, fire extinguisher services, fire suppression systems, and 24/7 emergency service across all of Texas. NFPA 25 compliant.",
+  keywords: [
+    "fire sprinkler installation Texas",
+    "fire sprinkler inspection Texas",
+    "fire suppression systems Texas",
+    "fire extinguisher service Texas",
+    "kitchen hood suppression Texas",
+    "FM-200 clean agent system Texas",
+    "24/7 emergency fire service Texas",
+    "NFPA 25 inspection Texas",
+  ],
   alternates: {
     canonical: "/services",
   },

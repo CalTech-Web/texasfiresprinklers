@@ -9,6 +9,17 @@ export const metadata: Metadata = {
   },
   description:
     "E&R Ibukun LLC delivers expert fire sprinkler installation, inspection, and 24/7 emergency services across all of Texas. Licensed contractor SCR-G-3451926. Serving Houston and every Texas zip code.",
+  keywords: [
+    "fire sprinkler installation Texas",
+    "fire sprinkler contractor Texas",
+    "fire sprinkler inspection Texas",
+    "fire sprinkler Houston",
+    "NFPA 25 Texas",
+    "fire protection services Texas",
+    "fire extinguisher service Texas",
+    "fire suppression systems Texas",
+    "24/7 emergency fire service Texas",
+  ],
   alternates: {
     canonical: "/",
   },

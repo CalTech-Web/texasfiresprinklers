@@ -22,6 +22,37 @@ export const metadata: Metadata = {
   },
 };
 
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {
+      "@type": "Question",
+      name: "What types of fire suppression systems do you install and service?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Wet and dry sprinkler systems, kitchen hood systems, FM-200 clean agent for server rooms and electronics, CO2 for industrial machinery, and dry chemical for paint booths and flammable storage. If it suppresses fire, we install and service it.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "How does your process work?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Four steps. Site evaluation first, then a custom protection plan, then installation or maintenance, then full digital documentation and state-required tagging. You get the records, we handle the filing.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What fire extinguisher services do you provide?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Annual inspections with professional tagging and certification, 6-year internal exams, hydrostatic pressure testing, and on-site recharging. We also run PASS training for your staff. Pull, Aim, Squeeze, Sweep.",
+      },
+    },
+  ],
+};
+
 const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
@@ -65,6 +96,7 @@ const contactPageSchema = {
 export default function ContactPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(contactPageSchema) }} />
       {/* Header */}

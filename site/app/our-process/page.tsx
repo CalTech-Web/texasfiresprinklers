@@ -34,6 +34,53 @@ const breadcrumbSchema = {
   ],
 };
 
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {
+      "@type": "Question",
+      name: "What areas of Texas do you serve?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "All of it. Houston is our base, but we run mobile teams to every Texas zip code. Gulf Coast, North Texas, rural counties. Wherever the property is.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Are you licensed and insured in Texas?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Yes. Registration number SCR-G-3451926, issued by the Texas Department of Insurance State Fire Marshal's Office. Every technician on a job is licensed and insured.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What fire sprinkler inspection standards do you follow?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "NFPA 25 sets the baseline for water-based fire protection inspection and testing. We follow it on every job. We also track Texas state codes and local fire marshal requirements and handle all required documentation.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Do you offer emergency service outside of business hours?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "(832) 961-8372 is a 24/7 line, any day. Burst pipes, alarm faults, post-fire system restoration, and on-site fire watch while a system is offline. If it is urgent, call.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Do you handle the paperwork for fire marshal compliance?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Yes. State documentation and local fire marshal reports are part of every job. You should not have to track down paperwork after the technician leaves.",
+      },
+    },
+  ],
+};
+
 const howToSchema = {
   "@context": "https://schema.org",
   "@type": "HowTo",
@@ -104,6 +151,7 @@ export default function ProcessPage() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       {/* Header */}
       <section style={{ backgroundColor: "#800A03" }} className="py-16 text-white text-center">
         <div className="max-w-4xl mx-auto px-4">

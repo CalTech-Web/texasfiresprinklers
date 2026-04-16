@@ -180,7 +180,7 @@ export default function HomePage() {
       <section className="relative min-h-[600px] flex items-center justify-center overflow-hidden">
         <Image
           src="/gallery/er-ibukun-hero.jpeg"
-          alt="E&R Ibukun LLC fire protection services"
+          alt="E&R Ibukun LLC fire protection services Texas"
           fill
           className="object-cover"
           priority

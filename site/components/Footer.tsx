@@ -17,10 +17,12 @@ export default function Footer() {
           <div>
             <h4 className="font-semibold mb-3 uppercase text-xs tracking-wider text-red-200">Services</h4>
             <ul className="space-y-2 text-sm">
-              <li><Link href="/services#FireSprinklerSystems" className="hover:text-red-200 transition-colors">Fire Sprinkler Systems</Link></li>
-              <li><Link href="/services#FireExtinguisherServices" className="hover:text-red-200 transition-colors">Fire Extinguisher Services</Link></li>
-              <li><Link href="/services#FireSuppressionSystems" className="hover:text-red-200 transition-colors">Fire Suppression Systems</Link></li>
-              <li><Link href="/services#EmergencyService" className="hover:text-red-200 transition-colors">Emergency Service</Link></li>
+              <li><Link href="/fire-sprinkler-installation" className="hover:text-red-200 transition-colors">Fire Sprinkler Installation</Link></li>
+              <li><Link href="/fire-sprinkler-inspection" className="hover:text-red-200 transition-colors">Fire Sprinkler Inspection</Link></li>
+              <li><Link href="/fire-sprinkler-repair" className="hover:text-red-200 transition-colors">Fire Sprinkler Repair</Link></li>
+              <li><Link href="/fire-suppression-systems" className="hover:text-red-200 transition-colors">Fire Suppression Systems</Link></li>
+              <li><Link href="/fire-extinguisher-services" className="hover:text-red-200 transition-colors">Fire Extinguisher Services</Link></li>
+              <li><Link href="/emergency-fire-sprinkler-service" className="hover:text-red-200 transition-colors">Emergency Service</Link></li>
             </ul>
           </div>
 

@@ -5,10 +5,12 @@ import Link from "next/link";
 import { useState } from "react";
 
 const services = [
-  { label: "Fire Sprinkler Systems", href: "/services#FireSprinklerSystems" },
-  { label: "Fire Extinguisher Services", href: "/services#FireExtinguisherServices" },
-  { label: "Fire Suppression Systems", href: "/services#FireSuppressionSystems" },
-  { label: "Emergency Service", href: "/services#EmergencyService" },
+  { label: "Fire Sprinkler Installation", href: "/fire-sprinkler-installation" },
+  { label: "Fire Sprinkler Inspection", href: "/fire-sprinkler-inspection" },
+  { label: "Fire Sprinkler Repair", href: "/fire-sprinkler-repair" },
+  { label: "Fire Suppression Systems", href: "/fire-suppression-systems" },
+  { label: "Fire Extinguisher Services", href: "/fire-extinguisher-services" },
+  { label: "Emergency Service", href: "/emergency-fire-sprinkler-service" },
 ];
 
 export default function Navbar() {
@@ -55,7 +57,7 @@ export default function Navbar() {
               <div
                 onMouseEnter={() => setServicesOpen(true)}
                 onMouseLeave={() => setServicesOpen(false)}
-                className={`absolute top-full left-0 mt-1 w-56 bg-white text-black rounded shadow-lg py-2 transition-all ${servicesOpen ? "opacity-100 visible" : "opacity-0 invisible"}`}
+                className={`absolute top-full left-0 mt-1 w-64 bg-white text-black rounded shadow-lg py-2 transition-all ${servicesOpen ? "opacity-100 visible" : "opacity-0 invisible"}`}
               >
                 {services.map((s) => (
                   <Link

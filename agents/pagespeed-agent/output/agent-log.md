@@ -157,3 +157,6 @@ Reducing the service images frees bandwidth for the hero image, directly improvi
 **Deployed:** Pushed to `main`; Vercel build triggered and Ready (`texasfiresprinklers-qmxylmdr4-brandon-7928s-projects.vercel.app`)
 
 [2026-04-16 01:45:00] Run #2 finished
+Background task completed — that was the pre-warm step which already finished before the Lighthouse run. No action needed.
+[2026-04-15 18:39:15] Run #2 finished
+[2026-04-15 18:39:15] Reached max loops (2). Stopping.

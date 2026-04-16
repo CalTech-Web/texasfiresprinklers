@@ -136,3 +136,21 @@ Six targeted fixes across four pages, committed and deployed.
 **Our Process page**
 - CTA close: "We will take it from there" dropped; replaced with a four-item list of what actually happens after the call
 [2026-04-15 17:55:00] Run #5 finished
+Run #5 complete. Deployed to production (Ready). Six targeted fixes across four files:
+
+**Homepage**
+- Process step 01 mini-desc: "Comprehensive audit of your current fire safety status, identifying any gaps in Texas code compliance" was the last surviving piece of corporate boilerplate across all process copy. Now matches the specificity of the full process page version.
+- Process step 02 mini-desc: flat "customized protection plan" language replaced with a hazard-class framing that names the actual design decision.
+- Clean Work Guarantee card: was cramming two separate promises (cleanliness + no call centers) into one card. Now focuses only on what the card title actually promises, with a visual close.
+
+**About page**
+- Edwin bio: "A Houston base, statewide reach, and a no-shortcuts policy on compliance. That is the standard he set." was a comma list pretending to be prose. Rewritten as a flowing human thought.
+- Statewide Coverage card: bullet-point construction replaced with a punchy three-beat rhythm ending on a verb.
+
+**Services page**
+- CTA paragraph tightened from two generic sentences to one direct line.
+
+**Process page**
+- "We will take it from there" dropped and replaced with a four-item list of what actually happens after the call.
+[2026-04-15 17:39:31] Run #5 finished
+[2026-04-15 17:39:31] Reached max loops (5). Stopping.

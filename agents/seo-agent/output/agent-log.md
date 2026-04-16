@@ -150,3 +150,22 @@ Run #5 complete. Here's what was done:
 - Updated from `"E&R Ibukun LLC fire protection services"` to `"E&R Ibukun LLC fire protection services Texas"` — adds the geographic keyword to the highest-prominence image on the site.
 
 Commit `a7751c2` pushed to `origin main`.
+Run #5 complete. Here's what was done:
+
+**FAQPage schemas on inner pages (rich result opportunity)**
+- `our-process/page.tsx`: Added `FAQPage` JSON-LD with 5 Q&As. The questions were already rendered in HTML but not schema-marked, so they were ineligible for Google FAQ rich results. Now they are.
+- `contact-us/page.tsx`: Added `FAQPage` JSON-LD with 3 Q&As from "Common Questions." Same gap — content existed, schema was absent.
+
+**Houston suburb coverage in `areaServed`**
+- Expanded from 11 to 19 entries. Added Katy, Sugar Land, The Woodlands, Pearland, League City, Pasadena, Baytown, Conroe — the highest-density Houston suburbs where "[service] in [suburb]" queries have lower competition than the city itself.
+
+**LocalBusiness schema additions**
+- `priceRange: "$$"` — appears in Google Knowledge Panel for the business listing
+- `hasMap` (Google Maps URL for the address) — strengthens the physical location association in Google's entity graph
+
+**Homepage hero alt text**
+- `"E&R Ibukun LLC fire protection services"` → `"E&R Ibukun LLC fire protection services Texas"` — adds the geographic keyword to the site's highest-prominence image
+
+Commits `a7751c2` + `0d6b14f` pushed to `origin main`.
+[2026-04-15 18:02:13] Run #5 finished
+[2026-04-15 18:02:13] Reached max loops (5). Stopping.

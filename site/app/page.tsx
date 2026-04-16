@@ -108,24 +108,28 @@ const services = [
     title: "Fire Sprinkler Systems",
     desc: "Custom design, installation, and NFPA 25 inspections. State documentation and fire marshal reports filed on every job.",
     img: "/products/fire-sprinkler-spraying.png",
+    href: "/fire-sprinkler-installation",
   },
   {
     id: "FireExtinguisherServices",
     title: "Fire Extinguisher Services",
     desc: "Annual inspections, 6-year maintenance, hydrostatic testing, on-site recharging, and PASS training for your staff.",
     img: "/products/fire-extinguishers-inspection.png",
+    href: "/fire-extinguisher-services",
   },
   {
     id: "FireSuppressionSystems",
     title: "Fire Suppression Systems",
     desc: "Kitchen hood, FM-200 clean agent, CO2, and dry chemical systems for restaurants, data centers, and industrial facilities.",
     img: "/products/fire-suppression-server.png",
+    href: "/fire-suppression-systems",
   },
   {
     id: "EmergencyService",
     title: "24/7 Emergency Service",
     desc: "Burst pipe at 2 a.m. System down after a fire. We run 24/7 dispatch across Texas and take the call.",
     img: "/gallery/emergency-service-worker-night.png",
+    href: "/emergency-fire-sprinkler-service",
   },
 ];
 
@@ -247,7 +251,7 @@ export default function HomePage() {
             {services.map((s) => (
               <Link
                 key={s.id}
-                href={`/services#${s.id}`}
+                href={s.href}
                 className="bg-white rounded-lg overflow-hidden shadow hover:shadow-lg transition-shadow group"
               >
                 <div className="relative h-48">

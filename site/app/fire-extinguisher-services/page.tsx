@@ -35,7 +35,7 @@ const faqSchema = {
       name: "How often do fire extinguishers need to be inspected in Texas?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "NFPA 10 requires an annual inspection by a certified professional. In addition, your staff should perform a quick visual check monthly to confirm the extinguisher is in place, the pin is intact, and the gauge is in the green. After any use or discharge, the extinguisher must be inspected and recharged before being returned to service.",
+        text: "NFPA 10 requires an annual fire extinguisher inspection in Texas by a certified professional. In addition, your staff should perform a quick visual check monthly to confirm the extinguisher is in place, the pin is intact, and the gauge is in the green. After any use or discharge, the extinguisher must be inspected and recharged before being returned to service.",
       },
     },
     {
@@ -48,7 +48,7 @@ const faqSchema = {
     },
     {
       "@type": "Question",
-      name: "What is hydrostatic testing and when is it required?",
+      name: "What is hydrostatic testing and when is it required for Texas fire extinguishers?",
       acceptedAnswer: {
         "@type": "Answer",
         text: "Hydrostatic testing fills the cylinder with water under pressure to verify the shell can handle its rated working pressure without failure. Most portable extinguishers require hydrostatic testing every 5 or 12 years depending on the extinguisher type. Cartridge-operated dry chemical units require 12-year testing. We perform testing on-site or at our facility.",
@@ -64,26 +64,26 @@ const faqSchema = {
     },
     {
       "@type": "Question",
-      name: "What types of fire extinguishers do you service?",
+      name: "What types of fire extinguishers do you service across Texas?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "We service ABC dry chemical, CO2, wet chemical (Class K for commercial kitchens), halon replacement clean agents, and water-based extinguishers. We also service wheeled units and fixed suppression systems with portable backup extinguishers.",
+        text: "We service ABC dry chemical, CO2, wet chemical (Class K for commercial kitchens), halon replacement clean agents, and water-based extinguishers across Texas. We also service wheeled units and fixed suppression systems with portable backup extinguishers.",
       },
     },
     {
       "@type": "Question",
-      name: "Do you provide PASS training for employees?",
+      name: "Do you provide PASS training for employees at Texas businesses?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes. We offer on-site PASS training for your staff. PASS stands for Pull, Aim, Squeeze, Sweep. Most employees have never actually operated a fire extinguisher. Training takes about 30 minutes and gives your staff the confidence to respond to a small fire before it grows.",
+        text: "Yes. We offer on-site PASS training for your staff at Texas businesses. PASS stands for Pull, Aim, Squeeze, Sweep. Most employees have never actually operated a fire extinguisher. Training takes about 30 minutes and gives your staff the confidence to respond to a small fire before it grows.",
       },
     },
     {
       "@type": "Question",
-      name: "How many fire extinguishers does my building need?",
+      name: "How many fire extinguishers does my Texas building need?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "NFPA 10 sets minimum requirements based on occupancy class and floor area. A light hazard office needs one extinguisher for roughly every 3,000 square feet. A commercial kitchen with Class K hazards needs a wet chemical unit within 30 feet of the cooking equipment. We assess your building and tell you exactly what you need to be compliant.",
+        text: "NFPA 10 sets minimum requirements based on occupancy class and floor area. A light hazard office needs one extinguisher for roughly every 3,000 square feet. A commercial kitchen with Class K hazards needs a wet chemical unit within 30 feet of the cooking equipment. We assess your building and tell you exactly what you need to be compliant with Texas fire code.",
       },
     },
   ],
@@ -156,10 +156,10 @@ export default function FireExtinguisherServicesPage() {
         <div className="max-w-4xl mx-auto px-4">
           <p className="uppercase tracking-widest text-sm mb-4 text-red-200">NFPA 10 Certified Service</p>
           <h1 className="text-4xl sm:text-5xl font-bold mb-6 leading-tight">
-            Fire Extinguisher Services in Texas
+            Fire Extinguisher Inspection in Texas
           </h1>
           <p className="text-red-100 text-lg max-w-2xl mx-auto mb-8">
-            Annual inspections, 6-year internal examinations, hydrostatic testing, on-site recharging, and employee PASS training across all of Texas. Every unit tagged and certified.
+            E&R Ibukun LLC provides certified fire extinguisher inspection in Texas, covering annual inspections, 6-year internal examinations, hydrostatic testing, on-site recharging, and employee PASS training across all of Texas. Every unit tagged and certified.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
@@ -198,9 +198,9 @@ export default function FireExtinguisherServicesPage() {
       <section style={{ backgroundColor: "#EFF6F9" }} className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-bold mb-4">What Our Fire Extinguisher Service Includes</h2>
+            <h2 className="text-3xl sm:text-4xl font-bold mb-4">What Our Texas Fire Extinguisher Inspection Includes</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              More than just a tag. We cover every service interval required by NFPA 10 and provide documentation for every unit at your facility.
+              More than just a tag. Fire extinguisher inspection in Texas covers every service interval required by NFPA 10, with documentation for every unit at your facility.
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -233,9 +233,9 @@ export default function FireExtinguisherServicesPage() {
             </div>
             <div>
               <p className="uppercase tracking-widest text-xs font-semibold mb-3" style={{ color: "#C3071F" }}>NFPA 10 Service Schedule</p>
-              <h2 className="text-3xl sm:text-4xl font-bold mb-6">Fire Extinguisher Service Intervals</h2>
+              <h2 className="text-3xl sm:text-4xl font-bold mb-6">Texas Fire Extinguisher Inspection Intervals</h2>
               <p className="text-gray-700 leading-relaxed mb-6">
-                NFPA 10 sets required service intervals that most facility managers do not have time to track. We manage the schedule and remind you when service is due.
+                NFPA 10 sets required service intervals that most Texas facility managers do not have time to track. We manage the schedule for fire extinguisher inspection in Texas and remind you when service is due, so you are never out of compliance.
               </p>
               <div className="space-y-4">
                 {serviceIntervals.map((item) => (
@@ -257,9 +257,9 @@ export default function FireExtinguisherServicesPage() {
       <section style={{ backgroundColor: "#EFF6F9" }} className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-bold mb-4">How Our Service Process Works</h2>
+            <h2 className="text-3xl sm:text-4xl font-bold mb-4">How Our Texas Fire Extinguisher Service Works</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              Schedule, inspect, certify, and document. We come to your facility and handle everything on-site.
+              Schedule, inspect, certify, and document. We come to your Texas facility and handle everything on-site.
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -280,7 +280,7 @@ export default function FireExtinguisherServicesPage() {
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-bold mb-4">Fire Extinguisher Service FAQ</h2>
+            <h2 className="text-3xl sm:text-4xl font-bold mb-4">Fire Extinguisher Inspection in Texas: FAQ</h2>
             <p className="text-gray-600">Common questions about fire extinguisher inspection and maintenance in Texas.</p>
           </div>
           <div className="space-y-6">
@@ -321,9 +321,9 @@ export default function FireExtinguisherServicesPage() {
       {/* CTA */}
       <section style={{ backgroundColor: "#800A03" }} className="py-16 text-white text-center">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl sm:text-4xl font-bold mb-4">Schedule Your Fire Extinguisher Service</h2>
+          <h2 className="text-3xl sm:text-4xl font-bold mb-4">Get a Texas-Certified Fire Extinguisher Inspector</h2>
           <p className="text-red-200 text-lg mb-8">
-            We come to your facility, inspect and service every unit, and leave you with certified tags and full documentation. Call or text to get on the schedule.
+            Serving all of Texas for fire extinguisher inspection, from Houston to Dallas to El Paso. We come to your facility, inspect and service every unit, and leave you with certified tags and full documentation.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="tel:8329618372" style={{ backgroundColor: "#C3071F" }} className="px-8 py-4 rounded font-bold text-lg hover:opacity-90 transition-opacity">

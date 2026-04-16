@@ -40,7 +40,7 @@ const faqSchema = {
     },
     {
       "@type": "Question",
-      name: "Why does a restaurant need a kitchen hood suppression system?",
+      name: "Why do Texas restaurants need a kitchen hood suppression system?",
       acceptedAnswer: {
         "@type": "Answer",
         text: "Commercial cooking produces grease-laden vapors that accumulate in the hood and ductwork. If that grease ignites, a standard sprinkler head cannot control it effectively. A UL 300-listed kitchen hood suppression system uses a wet chemical agent that knocks down grease fires and saponifies the surface to prevent re-ignition. Texas fire code requires these systems in most commercial kitchens.",
@@ -48,7 +48,7 @@ const faqSchema = {
     },
     {
       "@type": "Question",
-      name: "What is an FM-200 clean agent system and when is it used?",
+      name: "What is an FM-200 clean agent system and when is it used in Texas?",
       acceptedAnswer: {
         "@type": "Answer",
         text: "FM-200 is a waterless fire suppression agent stored as a compressed liquid. When it discharges it extinguishes fire by removing heat. It leaves no residue, which makes it ideal for protecting electronics, server rooms, and data centers where water damage would destroy equipment. It is also safe for occupied spaces.",
@@ -56,7 +56,7 @@ const faqSchema = {
     },
     {
       "@type": "Question",
-      name: "How often do suppression systems need to be inspected?",
+      name: "How often do fire suppression systems in Texas need to be inspected?",
       acceptedAnswer: {
         "@type": "Answer",
         text: "Kitchen hood suppression systems require semi-annual inspections per NFPA 96, typically every six months or more frequently depending on cooking volume. Clean agent and CO2 systems require annual inspections. We schedule and track all intervals so you do not miss a deadline.",
@@ -80,7 +80,7 @@ const faqSchema = {
     },
     {
       "@type": "Question",
-      name: "Do you install suppression systems outside of Houston?",
+      name: "Do you install fire suppression systems outside of Houston across Texas?",
       acceptedAnswer: {
         "@type": "Answer",
         text: "Yes. We serve all of Texas. Our mobile service teams travel statewide for both installation and ongoing service. Dallas, Austin, San Antonio, and every other Texas market.",
@@ -158,7 +158,7 @@ const systems = [
 ];
 
 const processSteps = [
-  { num: "01", title: "Hazard Assessment", desc: "We evaluate your occupancy, equipment layout, and fire hazard class. The right system depends on what is actually at risk and what the code requires." },
+  { num: "01", title: "Hazard Assessment", desc: "We evaluate your occupancy, equipment layout, and fire hazard class. The right system depends on what is actually at risk and what Texas code requires." },
   { num: "02", title: "System Design", desc: "Engineering calculations, nozzle placement, agent quantity, and control panel integration. Designed to the correct NFPA standard for your system type." },
   { num: "03", title: "Installation", desc: "Licensed technicians install piping, nozzles, cylinders, detection, and control equipment. We coordinate with your kitchen or facilities team to minimize downtime." },
   { num: "04", title: "Testing and Certification", desc: "Full operational test, documentation, and any required local fire marshal sign-off. You get a certificate of compliance and a service schedule." },
@@ -178,7 +178,7 @@ export default function FireSuppressionSystemsPage() {
             Fire Suppression Systems in Texas
           </h1>
           <p className="text-red-100 text-lg max-w-2xl mx-auto mb-8">
-            Kitchen hood, FM-200 clean agent, CO2, and dry chemical suppression systems for restaurants, data centers, and industrial facilities across all of Texas. The right agent for your specific hazard.
+            E&R Ibukun LLC designs and installs fire suppression systems in Texas for restaurants, data centers, and industrial facilities statewide. Kitchen hood, FM-200 clean agent, CO2, and dry chemical: the right agent for your specific hazard.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
@@ -216,9 +216,9 @@ export default function FireSuppressionSystemsPage() {
       {/* Intro */}
       <section style={{ backgroundColor: "#EFF6F9" }} className="py-16">
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-6">The Right Suppression System for Your Hazard</h2>
+          <h2 className="text-3xl font-bold mb-6">Why Texas Facilities Need the Right Suppression System</h2>
           <p className="text-gray-700 leading-relaxed text-lg">
-            A sprinkler head over a commercial range will destroy a kitchen when water hits burning grease. FM-200 in a server room stops a fire without soaking expensive equipment. CO2 in an engine room handles a fuel fire that water cannot touch. We specify and install the right suppression system for what is actually at risk in your building.
+            A sprinkler head over a commercial range will destroy a kitchen when water hits burning grease. FM-200 in a server room stops a fire without soaking expensive equipment. CO2 in an engine room handles a fuel fire that water cannot touch. Fire suppression systems in Texas must match the specific hazard in each space. We specify and install the right solution for what is actually at risk in your building, whether you are in Houston, Dallas, San Antonio, or anywhere else across the state.
           </p>
         </div>
       </section>
@@ -264,9 +264,9 @@ export default function FireSuppressionSystemsPage() {
       <section style={{ backgroundColor: "#EFF6F9" }} className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-bold mb-4">Our Suppression System Process</h2>
+            <h2 className="text-3xl sm:text-4xl font-bold mb-4">How We Install Fire Suppression Systems Across Texas</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              From hazard assessment to final certification. Every step is engineered and documented.
+              From hazard assessment to final certification. Every step is engineered and documented to Texas fire code.
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -287,7 +287,7 @@ export default function FireSuppressionSystemsPage() {
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-bold mb-4">Fire Suppression System FAQ</h2>
+            <h2 className="text-3xl sm:text-4xl font-bold mb-4">Fire Suppression Systems in Texas: FAQ</h2>
             <p className="text-gray-600">Common questions about fire suppression systems in Texas.</p>
           </div>
           <div className="space-y-6">
@@ -328,9 +328,9 @@ export default function FireSuppressionSystemsPage() {
       {/* CTA */}
       <section style={{ backgroundColor: "#800A03" }} className="py-16 text-white text-center">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl sm:text-4xl font-bold mb-4">Ready to Protect Your Texas Facility?</h2>
+          <h2 className="text-3xl sm:text-4xl font-bold mb-4">Protect Your Texas Facility with the Right Suppression System</h2>
           <p className="text-red-200 text-lg mb-8">
-            We assess your hazard, spec the right system, install it, and handle all compliance documentation. Call or text to schedule your free hazard assessment.
+            Serving all of Texas for fire suppression systems, including Houston, Dallas, Austin, and San Antonio. We assess your hazard, spec the right system, install it, and handle all compliance documentation.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="tel:8329618372" style={{ backgroundColor: "#C3071F" }} className="px-8 py-4 rounded font-bold text-lg hover:opacity-90 transition-opacity">

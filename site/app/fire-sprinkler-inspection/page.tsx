@@ -32,6 +32,14 @@ const faqSchema = {
   mainEntity: [
     {
       "@type": "Question",
+      name: "How much does fire sprinkler inspection in Texas cost?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "The cost of fire sprinkler inspection in Texas varies by building size, system type, and inspection interval. Most commercial annual inspections are priced per zone or per building square footage. Call (832) 961-8372 for a quote specific to your property. We provide written pricing before any inspection begins.",
+      },
+    },
+    {
+      "@type": "Question",
       name: "How often is a fire sprinkler inspection required in Texas?",
       acceptedAnswer: {
         "@type": "Answer",
@@ -40,7 +48,7 @@ const faqSchema = {
     },
     {
       "@type": "Question",
-      name: "What does a fire sprinkler inspection include?",
+      name: "What does a fire sprinkler inspection in Texas include?",
       acceptedAnswer: {
         "@type": "Answer",
         text: "A full NFPA 25 inspection covers sprinkler heads (looking for corrosion, paint, or damage), control valves, alarm valves, water supply tests, pressure gauges, hangers and bracing, backflow preventers, and the fire pump if present. We document every component and note anything out of compliance.",
@@ -64,26 +72,18 @@ const faqSchema = {
     },
     {
       "@type": "Question",
-      name: "Can you inspect dry pipe, pre-action, and deluge systems?",
+      name: "Can you inspect dry pipe, pre-action, and deluge systems across Texas?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes. We inspect all water-based suppression system types: wet pipe, dry pipe, pre-action, and deluge systems. Each system type has its own NFPA 25 testing requirements, and our technicians are trained on all of them.",
+        text: "Yes. We inspect all water-based suppression system types across Texas: wet pipe, dry pipe, pre-action, and deluge systems. Each system type has its own NFPA 25 testing requirements, and our technicians are trained on all of them.",
       },
     },
     {
       "@type": "Question",
-      name: "How long does a fire sprinkler inspection take?",
+      name: "Do you do sprinkler inspections for residential properties in Texas?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Most commercial inspections take two to four hours depending on the size of the building and number of zones. We work around your schedule and minimize disruption to your operations.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "Do you do sprinkler inspections for residential properties?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Yes. We inspect residential fire sprinkler systems for single-family homes and multifamily buildings. Residential systems follow NFPA 13D or 13R inspection intervals depending on the system type.",
+        text: "Yes. We inspect residential fire sprinkler systems for single-family homes and multifamily buildings across Texas. Residential systems follow NFPA 13D or 13R inspection intervals depending on the system type.",
       },
     },
   ],
@@ -151,7 +151,7 @@ export default function FireSprinklerInspectionPage() {
             Fire Sprinkler Inspection in Texas
           </h1>
           <p className="text-red-100 text-lg max-w-2xl mx-auto mb-8">
-            Annual, semi-annual, and quarterly fire sprinkler inspections across all of Texas. Every inspection follows NFPA 25 and Texas state code. We handle the reports and file the paperwork.
+            E&R Ibukun LLC provides professional fire sprinkler inspection in Texas for commercial, industrial, and residential properties statewide. Every inspection follows NFPA 25 and Texas state code. We handle the reports and file the paperwork.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
@@ -192,9 +192,9 @@ export default function FireSprinklerInspectionPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <p className="uppercase tracking-widest text-xs font-semibold mb-3" style={{ color: "#C3071F" }}>What We Check</p>
-              <h2 className="text-3xl sm:text-4xl font-bold mb-6">What a Fire Sprinkler Inspection Covers</h2>
+              <h2 className="text-3xl sm:text-4xl font-bold mb-6">What a Fire Sprinkler Inspection in Texas Covers</h2>
               <p className="text-gray-700 leading-relaxed mb-6">
-                NFPA 25 covers more than just the sprinkler heads. Every component that affects system performance gets tested at the required interval. We check the whole system, not just the parts that are easy to reach.
+                NFPA 25 fire sprinkler inspection in Texas covers more than just the sprinkler heads. Every component that affects system performance gets tested at the required interval. We check the whole system, not just the parts that are easy to reach.
               </p>
               <ul className="space-y-3">
                 {inspectionItems.map((item) => (
@@ -221,9 +221,9 @@ export default function FireSprinklerInspectionPage() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-bold mb-4">NFPA 25 Inspection Intervals</h2>
+            <h2 className="text-3xl sm:text-4xl font-bold mb-4">NFPA 25 Inspections Across Texas: Required Intervals</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              The frequency of each inspection item is set by NFPA 25. Here is what is required at each interval for a typical commercial wet pipe system.
+              The frequency of each inspection item is set by NFPA 25. Here is what is required at each interval for a typical commercial wet pipe system in Texas.
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -241,6 +241,11 @@ export default function FireSprinklerInspectionPage() {
               </div>
             ))}
           </div>
+          <div className="mt-10 max-w-3xl mx-auto text-center">
+            <p className="text-gray-700 leading-relaxed">
+              Texas properties with high-piled storage, large occupancy loads, or systems that have exceeded their service intervals often require additional testing beyond the NFPA 25 minimums. Our inspectors flag those situations and provide a clear written recommendation so you stay ahead of enforcement.
+            </p>
+          </div>
         </div>
       </section>
 
@@ -248,7 +253,7 @@ export default function FireSprinklerInspectionPage() {
       <section style={{ backgroundColor: "#EFF6F9" }} className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-bold mb-4">How Our Inspection Process Works</h2>
+            <h2 className="text-3xl sm:text-4xl font-bold mb-4">How Our Texas Fire Sprinkler Inspection Process Works</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
               Schedule, inspect, document, file. We handle every step and leave you with a clean record.
             </p>
@@ -312,9 +317,9 @@ export default function FireSprinklerInspectionPage() {
       {/* CTA */}
       <section style={{ backgroundColor: "#800A03" }} className="py-16 text-white text-center">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl sm:text-4xl font-bold mb-4">Schedule Your Fire Sprinkler Inspection</h2>
+          <h2 className="text-3xl sm:text-4xl font-bold mb-4">Get a Texas-Licensed Fire Sprinkler Inspector</h2>
           <p className="text-red-200 text-lg mb-8">
-            We come to you, inspect to NFPA 25, and file the state paperwork. Call or text to get on the schedule.
+            Serving all of Texas, from Houston to the Panhandle. We come to you, inspect to NFPA 25, and file the state paperwork. Call or text to get on the schedule.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="tel:8329618372" style={{ backgroundColor: "#C3071F" }} className="px-8 py-4 rounded font-bold text-lg hover:opacity-90 transition-opacity">

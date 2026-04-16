@@ -32,15 +32,15 @@ const faqSchema = {
   mainEntity: [
     {
       "@type": "Question",
-      name: "How quickly can you respond to a fire sprinkler emergency in Texas?",
+      name: "How quickly can you respond to an emergency fire sprinkler service call in Texas?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "We dispatch 24 hours a day, 7 days a week across all of Texas. Response time depends on your location and the crew nearest to you. Call (832) 961-8372 immediately. Our dispatch team takes the call around the clock, not a voicemail.",
+        text: "We dispatch 24 hours a day, 7 days a week across all of Texas. Response time depends on your location and the crew nearest to you. Call (832) 961-8372 immediately for emergency fire sprinkler service in Texas. Our dispatch team takes the call around the clock, not a voicemail.",
       },
     },
     {
       "@type": "Question",
-      name: "What counts as a fire sprinkler emergency?",
+      name: "What counts as a fire sprinkler emergency in Texas?",
       acceptedAnswer: {
         "@type": "Answer",
         text: "Any situation that leaves a building unprotected or causes active water damage is an emergency. This includes burst or leaking pipes, a sprinkler head that has discharged without a fire, a system that is offline after a fire event, a fire alarm panel in trouble mode, and any loss of water pressure to the system.",
@@ -48,10 +48,10 @@ const faqSchema = {
     },
     {
       "@type": "Question",
-      name: "What is fire watch service and when is it needed?",
+      name: "What is fire watch service in Texas and when is it needed?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Fire watch is a required safety measure when a fire suppression system is impaired for more than 4 hours. A fire watch attendant physically patrols the building on a timed schedule, watching for fire and ready to alert occupants. NFPA 25 requires fire watch any time a system is taken offline for repair, testing, or after a major failure. We provide licensed fire watch personnel across Texas.",
+        text: "Fire watch is a required safety measure in Texas when a fire suppression system is impaired for more than 4 hours. A fire watch attendant physically patrols the building on a timed schedule, watching for fire and ready to alert occupants. NFPA 25 requires fire watch any time a system is taken offline for repair, testing, or after a major failure. We provide licensed fire watch personnel across Texas.",
       },
     },
     {
@@ -64,15 +64,15 @@ const faqSchema = {
     },
     {
       "@type": "Question",
-      name: "Can you restore a fire sprinkler system after a fire?",
+      name: "Can you restore a fire sprinkler system after a fire in Texas?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes. After a fire, every sprinkler head that activated must be replaced. The system must be inspected for heat or smoke damage, drained and dried, re-pressurized, and tested before it can provide protection again. We handle full post-fire system restoration and provide documentation for your insurance claim.",
+        text: "Yes. After a fire, every sprinkler head that activated must be replaced. The system must be inspected for heat or smoke damage, drained and dried, re-pressurized, and tested before it can provide protection again. We handle full post-fire system restoration across Texas and provide documentation for your insurance claim.",
       },
     },
     {
       "@type": "Question",
-      name: "Do you provide emergency service outside of Houston?",
+      name: "Do you provide emergency fire sprinkler service outside of Houston across Texas?",
       acceptedAnswer: {
         "@type": "Answer",
         text: "Yes. We dispatch emergency crews statewide. Houston is our base, but we have crews that cover Dallas, Austin, San Antonio, and all surrounding Texas markets. Call (832) 961-8372 regardless of where you are in Texas.",
@@ -80,7 +80,7 @@ const faqSchema = {
     },
     {
       "@type": "Question",
-      name: "What happens if a fire sprinkler pipe freezes?",
+      name: "What happens if a fire sprinkler pipe freezes in a Texas building?",
       acceptedAnswer: {
         "@type": "Answer",
         text: "A frozen pipe in a wet system is an emergency waiting to happen. When the pipe thaws, it will discharge wherever it is cracked or burst. Call us immediately if you suspect a frozen section. We can isolate the zone, safely thaw the pipe with controlled heat, and repair any damage before water floods the building.",
@@ -152,7 +152,7 @@ export default function EmergencyFireSprinklerServicePage() {
             Emergency Fire Sprinkler Service in Texas
           </h1>
           <p className="text-red-100 text-lg max-w-2xl mx-auto mb-8">
-            Burst pipes, system failures, post-fire restoration, and fire watch. We dispatch emergency crews across all of Texas around the clock. Call now.
+            E&R Ibukun LLC provides emergency fire sprinkler service in Texas around the clock. Burst pipes, system failures, post-fire restoration, and fire watch coverage statewide. Call now.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
@@ -201,9 +201,9 @@ export default function EmergencyFireSprinklerServicePage() {
       <section style={{ backgroundColor: "#EFF6F9" }} className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-bold mb-4">Emergency Situations We Handle</h2>
+            <h2 className="text-3xl sm:text-4xl font-bold mb-4">Emergency Fire Sprinkler Situations We Handle Across Texas</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              If your fire protection system is offline, damaged, or flooding your building, call us. We handle every type of fire sprinkler emergency in Texas.
+              If your fire protection system is offline, damaged, or flooding your building anywhere in Texas, call us. We handle every type of emergency fire sprinkler service in Texas.
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -237,9 +237,9 @@ export default function EmergencyFireSprinklerServicePage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <p className="uppercase tracking-widest text-xs font-semibold mb-3" style={{ color: "#C3071F" }}>What Happens When You Call</p>
-              <h2 className="text-3xl sm:text-4xl font-bold mb-6">Our Emergency Response Process</h2>
+              <h2 className="text-3xl sm:text-4xl font-bold mb-6">Our Texas Emergency Fire Sprinkler Response Process</h2>
               <p className="text-gray-700 leading-relaxed mb-8">
-                When you call our emergency line, a technician or dispatcher answers. Not a machine. We get the details, dispatch the right crew, and talk you through any immediate actions while help is on the way.
+                When you call our emergency line for fire sprinkler service in Texas, a technician or dispatcher answers. Not a machine. We get the details, dispatch the right crew, and talk you through any immediate actions while help is on the way. Our response process is the same whether you are in Houston, Dallas, San Antonio, or a smaller Texas market.
               </p>
               <div className="space-y-6">
                 {processSteps.map((step) => (
@@ -271,7 +271,7 @@ export default function EmergencyFireSprinklerServicePage() {
       <section style={{ backgroundColor: "#EFF6F9" }} className="py-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-bold mb-4">Emergency Service FAQ</h2>
+            <h2 className="text-3xl sm:text-4xl font-bold mb-4">Emergency Fire Sprinkler Service in Texas: FAQ</h2>
             <p className="text-gray-600">Common questions about our 24/7 emergency fire sprinkler service in Texas.</p>
           </div>
           <div className="space-y-6">
@@ -312,9 +312,9 @@ export default function EmergencyFireSprinklerServicePage() {
       {/* Final CTA */}
       <section style={{ backgroundColor: "#800A03" }} className="py-16 text-white text-center">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl sm:text-4xl font-bold mb-4">Fire System Emergency in Texas?</h2>
+          <h2 className="text-3xl sm:text-4xl font-bold mb-4">Emergency Fire Sprinkler Service Across All of Texas</h2>
           <p className="text-red-200 text-lg mb-8">
-            Do not wait. A system that is offline or leaking puts people and property at risk. Call our 24/7 emergency line now.
+            Do not wait. A system that is offline or leaking puts people and property at risk. Call our 24/7 emergency line now for emergency fire sprinkler service in Texas.
           </p>
           <a href="tel:8329618372" style={{ backgroundColor: "#C3071F" }} className="inline-block px-10 py-5 rounded font-bold text-2xl hover:opacity-90 transition-opacity">
             Call (832) 961-8372

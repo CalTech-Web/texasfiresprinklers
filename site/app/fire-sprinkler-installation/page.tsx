@@ -31,6 +31,14 @@ const faqSchema = {
   mainEntity: [
     {
       "@type": "Question",
+      name: "Is fire sprinkler installation required by Texas law?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Texas law requires fire sprinkler installation in most new commercial buildings, high-rise structures, and certain multifamily developments. Requirements vary by occupancy type, building height, and local jurisdiction. E&R Ibukun LLC assesses your building against current Texas state code and local fire marshal requirements before any design work begins.",
+      },
+    },
+    {
+      "@type": "Question",
       name: "What types of fire sprinkler systems do you install in Texas?",
       acceptedAnswer: {
         "@type": "Answer",
@@ -39,7 +47,7 @@ const faqSchema = {
     },
     {
       "@type": "Question",
-      name: "How long does a commercial fire sprinkler installation take?",
+      name: "How long does a commercial fire sprinkler installation in Texas take?",
       acceptedAnswer: {
         "@type": "Answer",
         text: "Most commercial installations take one to five days depending on the square footage and system complexity. A small retail space may be done in a single day. A multi-floor warehouse will take longer. We give you a project timeline before any work begins so you can plan around it.",
@@ -67,14 +75,6 @@ const faqSchema = {
       acceptedAnswer: {
         "@type": "Answer",
         text: "Yes. E&R Ibukun LLC holds Texas Fire Sprinkler Certificate of Registration No. SCR-G-3451926, issued by the Texas Department of Insurance State Fire Marshal's Office. Every technician on our crews is licensed and insured.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "Do you install fire sprinklers in homes and residential buildings?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Yes. We install residential fire sprinkler systems that meet NFPA 13D requirements. Many new Texas home builds and multifamily developments now require residential sprinklers by code. We also retrofit existing homes.",
       },
     },
     {
@@ -176,7 +176,7 @@ export default function FireSprinklerInstallationPage() {
             Fire Sprinkler Installation in Texas
           </h1>
           <p className="text-red-100 text-lg max-w-2xl mx-auto mb-8">
-            We design and install fire sprinkler systems for commercial buildings, warehouses, restaurants, and homes across all of Texas. Every installation is NFPA 13 compliant with full state documentation included.
+            E&R Ibukun LLC provides professional fire sprinkler installation in Texas for commercial buildings, warehouses, restaurants, and homes statewide. Every installation is NFPA 13 compliant with full state documentation included.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
@@ -215,7 +215,7 @@ export default function FireSprinklerInstallationPage() {
       <section style={{ backgroundColor: "#EFF6F9" }} className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-bold mb-4">Why Choose E&R Ibukun for Your Sprinkler Installation</h2>
+            <h2 className="text-3xl sm:text-4xl font-bold mb-4">Why Texas Properties Choose E&R Ibukun for Sprinkler Installation</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
               A licensed Texas contractor, a complete design-and-install team, and paperwork handled from start to finish.
             </p>
@@ -242,9 +242,9 @@ export default function FireSprinklerInstallationPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <p className="uppercase tracking-widest text-xs font-semibold mb-3" style={{ color: "#C3071F" }}>What We Install</p>
-              <h2 className="text-3xl sm:text-4xl font-bold mb-6">Fire Sprinkler System Types</h2>
+              <h2 className="text-3xl sm:text-4xl font-bold mb-6">Texas Fire Sprinkler Installation: System Types</h2>
               <p className="text-gray-700 leading-relaxed mb-8">
-                Not every building needs the same system. Occupancy type, temperature range, and what is being protected all drive the right choice. We spec the correct system for your building on the first visit.
+                Not every building needs the same system. Occupancy type, temperature range, and what is being protected all drive the right choice. Fire sprinkler installation in Texas must account for the state&apos;s climate extremes, from coastal humidity in Houston to cold snaps in the Panhandle. We spec the correct system for your building on the first visit.
               </p>
               <div className="space-y-5">
                 {systemTypes.map((s) => (
@@ -274,9 +274,9 @@ export default function FireSprinklerInstallationPage() {
       <section style={{ backgroundColor: "#EFF6F9" }} className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-bold mb-4">Our Installation Process</h2>
+            <h2 className="text-3xl sm:text-4xl font-bold mb-4">Texas Fire Sprinkler Installation Process</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              Four steps from site evaluation to final certification. No surprises and no paperwork left for you to chase.
+              Four steps from site evaluation to final certification. No surprises and no paperwork left for you to chase across Texas.
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -290,6 +290,11 @@ export default function FireSprinklerInstallationPage() {
               </div>
             ))}
           </div>
+          <div className="mt-10 max-w-3xl mx-auto text-center">
+            <p className="text-gray-700 leading-relaxed">
+              Texas fire sprinkler installation projects range from a single-story restaurant in Houston to a multi-building industrial campus in the Permian Basin. Our crews are equipped and licensed to handle the full spectrum. Every job, large or small, follows the same four-step process so nothing gets skipped.
+            </p>
+          </div>
         </div>
       </section>
 
@@ -298,7 +303,7 @@ export default function FireSprinklerInstallationPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl sm:text-4xl font-bold mb-4">Fire Sprinkler Installation FAQ</h2>
-            <p className="text-gray-600">Common questions about fire sprinkler system installation in Texas.</p>
+            <p className="text-gray-600">Common questions about fire sprinkler installation in Texas.</p>
           </div>
           <div className="space-y-6">
             {faqSchema.mainEntity.map((item) => (
@@ -338,9 +343,9 @@ export default function FireSprinklerInstallationPage() {
       {/* CTA */}
       <section style={{ backgroundColor: "#800A03" }} className="py-16 text-white text-center">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl sm:text-4xl font-bold mb-4">Ready to Install Your Fire Sprinkler System?</h2>
+          <h2 className="text-3xl sm:text-4xl font-bold mb-4">Get a Texas-Licensed Fire Sprinkler Installer</h2>
           <p className="text-red-200 text-lg mb-8">
-            We come to your property, design the right system, install it to code, and file the paperwork. Call or text to schedule your free site evaluation.
+            Serving all of Texas, from Houston to El Paso. We come to your property, design the right system, install it to code, and file the paperwork. Call or text to schedule your free site evaluation.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="tel:8329618372" style={{ backgroundColor: "#C3071F" }} className="px-8 py-4 rounded font-bold text-lg hover:opacity-90 transition-opacity">

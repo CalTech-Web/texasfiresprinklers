@@ -32,18 +32,18 @@ const faqSchema = {
   mainEntity: [
     {
       "@type": "Question",
-      name: "What fire sprinkler repairs do you handle?",
+      name: "What fire sprinkler repairs in Texas do you handle?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "We handle leaking pipes and fittings, broken or corroded sprinkler heads, frozen or burst pipes, valve failures, backflow preventer repairs, pressure gauge replacement, and full system restoration after a fire activation. We also repair systems that failed an NFPA 25 inspection.",
+        text: "We handle leaking pipes and fittings, broken or corroded sprinkler heads, frozen or burst pipes, valve failures, backflow preventer repairs, pressure gauge replacement, and full system restoration after a fire activation. We also repair systems that failed an NFPA 25 inspection anywhere in Texas.",
       },
     },
     {
       "@type": "Question",
-      name: "How quickly can you respond to a fire sprinkler leak?",
+      name: "How quickly can you respond to a fire sprinkler leak in Texas?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "For emergency situations, we dispatch 24 hours a day, 7 days a week. Call (832) 961-8372. A burst pipe or active leak is treated as an emergency. We can also isolate the zone while repair is scheduled to minimize water damage.",
+        text: "For emergency situations, we dispatch 24 hours a day, 7 days a week across Texas. Call (832) 961-8372. A burst pipe or active leak is treated as an emergency. We can also isolate the zone while repair is scheduled to minimize water damage.",
       },
     },
     {
@@ -56,10 +56,10 @@ const faqSchema = {
     },
     {
       "@type": "Question",
-      name: "My sprinkler system failed an inspection. Can you fix it?",
+      name: "My sprinkler system failed an inspection in Texas. Can you fix it?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes. We repair deficiencies found during NFPA 25 inspections by us or any other licensed inspector. We review the inspection report, provide a written scope of work and pricing, and schedule the repair. After the fix, we can re-inspect and update your documentation.",
+        text: "Yes. We repair deficiencies found during NFPA 25 inspections by us or any other licensed inspector in Texas. We review the inspection report, provide a written scope of work and pricing, and schedule the repair. After the fix, we can re-inspect and update your documentation.",
       },
     },
     {
@@ -80,7 +80,7 @@ const faqSchema = {
     },
     {
       "@type": "Question",
-      name: "Do you repair residential fire sprinkler systems?",
+      name: "Do you repair residential fire sprinkler systems across Texas?",
       acceptedAnswer: {
         "@type": "Answer",
         text: "Yes. We repair residential fire sprinkler systems in single-family homes and multifamily buildings across Texas. Common residential repairs include replacing damaged heads, repairing freeze-related breaks, and fixing alarm connections.",
@@ -152,7 +152,7 @@ export default function FireSprinklerRepairPage() {
             Fire Sprinkler Repair in Texas
           </h1>
           <p className="text-red-100 text-lg max-w-2xl mx-auto mb-8">
-            Leaking pipes, broken heads, frozen systems, post-fire restoration. We repair fire sprinkler systems across all of Texas with 24/7 emergency response when you need it most.
+            E&R Ibukun LLC handles fire sprinkler repair in Texas for all system types, including leaking pipes, broken heads, frozen systems, and post-fire restoration. We provide 24/7 emergency response when you need it most.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
@@ -191,9 +191,9 @@ export default function FireSprinklerRepairPage() {
       <section style={{ backgroundColor: "#EFF6F9" }} className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-bold mb-4">Types of Fire Sprinkler Repairs We Handle</h2>
+            <h2 className="text-3xl sm:text-4xl font-bold mb-4">Texas Fire Sprinkler Repair: What We Fix</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              From a single corroded head to a system-wide pipe failure, we repair fire sprinkler systems of all types and sizes across Texas.
+              From a single corroded head to a system-wide pipe failure, fire sprinkler repair across Texas covers all system types and sizes.
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -226,9 +226,9 @@ export default function FireSprinklerRepairPage() {
             </div>
             <div>
               <p className="uppercase tracking-widest text-xs font-semibold mb-3" style={{ color: "#C3071F" }}>Our Repair Process</p>
-              <h2 className="text-3xl sm:text-4xl font-bold mb-6">How We Handle Your Repair</h2>
+              <h2 className="text-3xl sm:text-4xl font-bold mb-6">The Texas Fire Sprinkler Repair Process</h2>
               <p className="text-gray-700 leading-relaxed mb-8">
-                We do not guess and we do not patch. Every repair starts with an assessment, a written scope, and your sign-off before any work begins. Then we fix it right and document it.
+                We do not guess and we do not patch. Every fire sprinkler repair in Texas starts with a site assessment, a written scope, and your sign-off before any work begins. Then we fix it right and document it so your records are complete.
               </p>
               <div className="space-y-6">
                 {processSteps.map((step) => (
@@ -251,9 +251,9 @@ export default function FireSprinklerRepairPage() {
       {/* Emergency callout */}
       <section style={{ backgroundColor: "#111827" }} className="py-14 text-white text-center">
         <div className="max-w-3xl mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-4">Fire Sprinkler Emergency?</h2>
+          <h2 className="text-3xl font-bold mb-4">Fire Sprinkler Emergency Across Texas?</h2>
           <p className="text-gray-300 text-lg mb-6">
-            A burst pipe or active sprinkler leak cannot wait until morning. We dispatch emergency crews across Texas around the clock. Call now.
+            A burst pipe or active sprinkler leak cannot wait until morning. We dispatch emergency fire sprinkler repair crews across Texas around the clock. Call now.
           </p>
           <a href="tel:8329618372" style={{ backgroundColor: "#C3071F" }} className="inline-block px-10 py-4 rounded font-bold text-xl hover:opacity-90 transition-opacity">
             (832) 961-8372 — 24/7
@@ -306,9 +306,9 @@ export default function FireSprinklerRepairPage() {
       {/* CTA */}
       <section style={{ backgroundColor: "#800A03" }} className="py-16 text-white text-center">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl sm:text-4xl font-bold mb-4">Get Your Fire Sprinkler System Repaired</h2>
+          <h2 className="text-3xl sm:text-4xl font-bold mb-4">Get Your Texas Fire Sprinkler System Repaired</h2>
           <p className="text-red-200 text-lg mb-8">
-            We come to your property, assess the damage, give you a written quote, and fix it right. Call or text to schedule.
+            Serving all of Texas for fire sprinkler repair, from Houston and Dallas to San Antonio and beyond. We come to your property, assess the damage, give you a written quote, and fix it right.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="tel:8329618372" style={{ backgroundColor: "#C3071F" }} className="px-8 py-4 rounded font-bold text-lg hover:opacity-90 transition-opacity">

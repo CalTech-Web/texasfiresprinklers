@@ -105,3 +105,48 @@ Commit `5cdaba8` pushed to origin main.
   - Added keywords metadata to all 5 content pages (/, /services, /about-us, /our-process, /contact-us)
   - Expanded Person schema for Edwin Ibukun on about-us: added description and knowsAbout array (7 fire protection expertise areas) for stronger E-E-A-T signals
   - Commit: 7808dad | Pushed to origin main
+Run #4 complete. Here's what was done:
+
+**areaServed expansion (local SEO — highest impact)**
+- `LocalBusiness` schema in `layout.tsx`: `areaServed` upgraded from a single `State: Texas` entity to an array of 11 entries — the state plus 10 major Texas cities (Houston, Dallas, Austin, San Antonio, Fort Worth, El Paso, Arlington, Corpus Christi, Plano, Lubbock). Each city entry includes `containedInPlace: Texas`. This helps Google associate the business with specific local markets for "[service] in [city]" queries.
+
+**Emergency ContactPoint**
+- Split the single `ContactPoint` into two: one for customer service (Mon–Fri 7am–5pm) and one with `contactType: "emergency"` available 24/7 every day. The emergency type is a recognized value that can surface in emergency-related queries.
+
+**Geographic meta tags (`layout.tsx` head)**
+- Added `geo.region` (US-TX), `geo.placename` (Houston, Texas), `geo.position`, and `ICBM` tags. Google ignores these but Bing, Yahoo, and other secondary engines use them for geo-targeting.
+
+**Keywords metadata (all 5 content pages)**
+- Added `keywords` arrays to every page's Next.js `Metadata`. Google ignores this tag but Bing and Yahoo still use it, and it's zero cost.
+
+**Person schema expansion (`about-us`)**
+- Added `description` citing the SCR-G-3451926 license explicitly and `knowsAbout` array with 7 fire protection expertise areas. Strengthens Google's E-E-A-T evaluation for the site's authoritativeness.
+
+Commits `7808dad` + `bfb8957` pushed to `origin main`.
+[2026-04-15 17:57:51] Run #4 finished
+[2026-04-15 17:57:56] Run #5 starting (model: sonnet)
+[2026-04-15 17:57:56] Run #5 complete
+  - Added FAQPage JSON-LD to our-process/page.tsx (5 Q&As already rendered in HTML but unschema'd — now eligible for rich results on that URL)
+  - Added FAQPage JSON-LD to contact-us/page.tsx (3 Q&As — now eligible for rich results on that URL)
+  - Expanded areaServed in LocalBusiness schema: added 8 Houston metro suburbs (Katy, Sugar Land, The Woodlands, Pearland, League City, Pasadena, Baytown, Conroe) — total areaServed now 19 entries
+  - Added priceRange: "$$" to LocalBusiness schema — surfaces in Google Knowledge Panel for the business
+  - Added hasMap to LocalBusiness schema (Google Maps URL for 7961 Fields St) — reinforces physical location signal
+  - Improved homepage hero image alt text: added "Texas" geographic keyword
+  - Commit: a7751c2 | Pushed to origin main
+Run #5 complete. Here's what was done:
+
+**FAQPage schemas on inner pages (rich result opportunity)**
+- `our-process/page.tsx`: Added `FAQPage` JSON-LD with 5 Q&As matching the existing FAQ section on the page. The questions were already visible in the HTML but not marked up as FAQPage schema, so they were not eligible for Google rich results. Now they are.
+- `contact-us/page.tsx`: Added `FAQPage` JSON-LD with 3 Q&As from the "Common Questions" section. Same situation: content existed but schema was absent.
+
+**Houston suburb coverage (local SEO)**
+- `areaServed` in `LocalBusiness` schema expanded from 11 to 19 entries. Added Katy, Sugar Land, The Woodlands, Pearland, League City, Pasadena, Baytown, and Conroe. These are the highest-density Houston suburbs — the markets most likely to generate "[service] in [suburb]" queries that E&R Ibukun can rank for at lower competition than the city itself.
+
+**LocalBusiness schema improvements**
+- `priceRange: "$$"` added. This property appears in Google's Knowledge Panel for the business listing and helps Google categorize the business tier.
+- `hasMap` added with the Google Maps URL for the business address. This is a recognized `LocalBusiness` property that strengthens the physical location association in Google's entity graph.
+
+**Homepage hero alt text**
+- Updated from `"E&R Ibukun LLC fire protection services"` to `"E&R Ibukun LLC fire protection services Texas"` — adds the geographic keyword to the highest-prominence image on the site.
+
+Commit `a7751c2` pushed to `origin main`.

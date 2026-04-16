@@ -94,7 +94,7 @@ export default function ContactPage() {
               <div className="mt-10 p-6 rounded-lg" style={{ backgroundColor: "#800A03" }}>
                 <h3 className="text-white font-bold text-lg mb-2">24/7 Emergency Line</h3>
                 <p className="text-red-200 text-sm mb-4">
-                  For burst pipes, system failures, or fire watch services, call our emergency line any time of day or night.
+                  Burst pipe, system failure, alarm fault, fire watch. The line runs around the clock.
                 </p>
                 <a
                   href="tel:8329618372"
@@ -111,7 +111,7 @@ export default function ContactPage() {
               <h2 className="text-2xl font-bold mb-8">Book a Service Online</h2>
               <div className="bg-white rounded-xl shadow-sm p-8">
                 <p className="text-gray-700 mb-6 leading-relaxed">
-                  Call or text to schedule a fire sprinkler inspection, installation consultation, or maintenance visit. We will find a time that works for your property.
+                  Call or text to get on the schedule. Inspection, installation, or a maintenance visit. We work around your hours.
                 </p>
                 <a
                   href="tel:8329618372"

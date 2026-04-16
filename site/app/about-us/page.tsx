@@ -112,7 +112,7 @@ export default function AboutPage() {
             {[
               { title: "Statewide Coverage", desc: "Every Texas zip code, including Gulf Coast, North Texas, and surrounding rural areas." },
               { title: "Digital Diagnostics", desc: "System diagnostics run on modern equipment, not paper logs. Faster reads, fewer missed defects." },
-              { title: "No Mess Left Behind", desc: "We stage equipment, do the work, and restore the site. No tools left behind, no cleanup for you." },
+              { title: "No Mess Left Behind", desc: "We stage equipment, do the work, and restore the site. Tools go back in the truck. The space looks like we were never there." },
               { title: "Real Expert Access", desc: "Direct communication with certified technicians, not call center representatives." },
             ].map((item) => (
               <div key={item.title} className="bg-red-900 rounded-lg p-6">

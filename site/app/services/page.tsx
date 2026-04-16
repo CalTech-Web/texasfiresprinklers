@@ -248,7 +248,7 @@ export default function ServicesPage() {
         <div className="max-w-3xl mx-auto px-4">
           <h2 className="text-3xl font-bold mb-4">Get a Free Site Evaluation</h2>
           <p className="text-gray-600 mb-8">
-            Call or text for a site evaluation. We cover every Texas zip code and file all state documentation from start to finish.
+            Call or text for a site evaluation. We cover every Texas zip code and handle all required state documentation when the job is done.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

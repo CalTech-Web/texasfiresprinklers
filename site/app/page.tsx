@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import FaqAccordion from "@/components/FaqAccordion";
 
 export const metadata: Metadata = {
   title: "Fire Sprinkler Installation & Inspection in Texas | E&R Ibukun LLC",
@@ -298,6 +299,9 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* FAQ */}
+      <FaqAccordion />
 
       {/* CTA Banner */}
       <section style={{ backgroundColor: "#800A03" }} className="py-16 text-white text-center">

@@ -12,28 +12,28 @@ const steps = [
   {
     num: "01",
     title: "Site Evaluation",
-    desc: "We begin with a comprehensive audit of your current fire safety status, identifying any gaps in Texas code compliance. Our technicians assess every aspect of your property to build a complete picture of what is needed.",
+    desc: "We walk the property before anything else. Every zone, every head, every pipe run. If something does not meet Texas state code or NFPA 25, we flag it in the report before a fire marshal does.",
     img: "/gallery/fire-sprinkler-ceiling-office.png",
     imgAlt: "Fire sprinkler system ceiling evaluation",
   },
   {
     num: "02",
     title: "System Design",
-    desc: "Our team creates a customized protection plan, selecting the right sprinklers, suppressants, or extinguishers for your specific layout and occupancy type. Every design meets NFPA 25 standards and Texas state fire codes.",
+    desc: "A restaurant hood system and a server room suppression system are completely different designs. We spec the right system for your occupancy type, square footage, and hazard class. NFPA 25 and Texas state code are built into every layout.",
     img: "/gallery/commercial-kitchen-suppression.png",
     imgAlt: "Fire suppression system design for commercial kitchen",
   },
   {
     num: "03",
     title: "Precision Implementation",
-    desc: "Certified technicians execute the installation or maintenance with minimal disruption to your daily operations. We bring all required equipment to your location and leave no mess behind.",
+    desc: "We show up with everything the job requires. Technicians work around your schedule where possible. When we leave, the space is clean and the system is live.",
     img: "/gallery/emergency-service-truck.png",
     imgAlt: "E&R Ibukun LLC technicians executing fire protection installation",
   },
   {
     num: "04",
     title: "Final Certification",
-    desc: "We provide full digital documentation and state-required tagging to prove your property is 100% compliant. We handle all required state documentation and local fire marshal reports, so you have nothing to manage on your end.",
+    desc: "You get the full paperwork package: digital records, state-required tagging, and any fire marshal reports the job requires. File it, forget it. Your property is covered.",
     img: "/gallery/process-fire-hose.jpeg",
     imgAlt: "Fire protection certification and compliance documentation",
   },
@@ -48,7 +48,7 @@ export default function ProcessPage() {
           <p className="uppercase tracking-widest text-sm mb-3 text-red-200">How It Works</p>
           <h1 className="text-4xl sm:text-5xl font-bold mb-4">Our Fire Protection Process</h1>
           <p className="text-red-100 text-lg max-w-2xl mx-auto">
-            A proven four-step approach that gets your fire protection system installed, inspected, and certified to Texas state code with zero hassle on your end.
+            Evaluation, design, installation, certification. Four steps, full documentation, and zero forms for you to chase down.
           </p>
         </div>
       </section>
@@ -109,7 +109,7 @@ export default function ProcessPage() {
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-6">Why Our Process Matters</h2>
           <p className="text-red-100 text-lg leading-relaxed mb-8">
-            Texas state law requires licensed fire sprinkler contractors to maintain compliance documentation for every job. Our process ensures your property meets every requirement from the Texas Department of Insurance State Fire Marshal&apos;s Office, so you are protected from liability and always ready for inspection.
+            Texas state law is specific. Licensed contractors have to document every job and keep records the fire marshal can pull. One missing form can mean a failed inspection and real liability. Our process handles the documentation so that is never your problem.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 text-center">
             {[
@@ -134,23 +134,23 @@ export default function ProcessPage() {
             {[
               {
                 q: "What areas of Texas do you serve?",
-                a: "E&R Ibukun LLC serves all of Texas, including Houston and every surrounding zip code. Our mobile service teams travel to any location statewide, from the Gulf Coast to North Texas, for both residential and commercial properties.",
+                a: "All of it. Houston is our base, but we run mobile teams to every Texas zip code. Gulf Coast, North Texas, rural counties. Wherever the property is.",
               },
               {
                 q: "Are you licensed and insured in Texas?",
-                a: "Yes. E&R Ibukun LLC holds Texas Fire Sprinkler Certificate of Registration number SCR-G-3451926, issued by the Texas Department of Insurance State Fire Marshal's Office. All technicians are fully licensed and insured.",
+                a: "Yes. Registration number SCR-G-3451926, issued by the Texas Department of Insurance State Fire Marshal's Office. Every technician on a job is licensed and insured.",
               },
               {
                 q: "What fire sprinkler inspection standards do you follow?",
-                a: "We follow NFPA 25, the standard for inspection, testing, and maintenance of water-based fire protection systems. We also ensure compliance with Texas state fire codes and local fire marshal requirements, and we handle all required documentation.",
+                a: "NFPA 25 sets the baseline for water-based fire protection inspection and testing. We follow it on every job. We also track Texas state codes and local fire marshal requirements and handle all required documentation.",
               },
               {
                 q: "Do you offer emergency service outside of business hours?",
-                a: "Yes. We offer 24-hour emergency dispatch across Texas, 7 days a week. Save our emergency hotline: (832) 961-8372. We handle burst pipe repair, alarm silencing, system restoration after a fire, and on-site fire watch services while systems are down.",
+                a: "Yes. (832) 961-8372 is a 24/7 line, any day. Burst pipes, alarm faults, post-fire system restoration, and on-site fire watch while a system is offline. If it is urgent, call.",
               },
               {
                 q: "Do you handle the paperwork for fire marshal compliance?",
-                a: "Yes. We handle all required state documentation and local fire marshal reports to keep your business in good standing so you do not have to manage that administrative burden yourself.",
+                a: "Yes. State documentation and local fire marshal reports are part of every job. You should not have to track down paperwork after the technician leaves.",
               },
             ].map((item) => (
               <div key={item.q} className="bg-white rounded-lg p-6 shadow-sm">
@@ -167,7 +167,7 @@ export default function ProcessPage() {
         <div className="max-w-3xl mx-auto px-4">
           <h2 className="text-3xl font-bold mb-4">Start with a Free Site Evaluation</h2>
           <p className="text-gray-600 mb-8">
-            Contact E&R Ibukun LLC to begin Step 1 of our process. We serve all of Texas and handle every document from start to finish.
+            Call or text (832) 961-8372 to schedule your site evaluation. We will take it from there.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

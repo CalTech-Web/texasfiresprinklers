@@ -15,7 +15,7 @@ export default function ContactPage() {
           <p className="uppercase tracking-widest text-sm mb-3 text-red-200">Get In Touch</p>
           <h1 className="text-4xl sm:text-5xl font-bold mb-4">Contact E&R Ibukun LLC</h1>
           <p className="text-red-100 text-lg max-w-2xl mx-auto">
-            Ready to protect your Texas property? Call, text, or email us for a free site evaluation. We serve every Texas zip code.
+            Call, text, or email. We run 24/7 emergency dispatch and cover every Texas zip code.
           </p>
         </div>
       </section>
@@ -111,7 +111,7 @@ export default function ContactPage() {
               <h2 className="text-2xl font-bold mb-8">Book a Service Online</h2>
               <div className="bg-white rounded-xl shadow-sm p-8">
                 <p className="text-gray-700 mb-6 leading-relaxed">
-                  Use our online booking portal through Housecall Pro to schedule a fire sprinkler inspection, installation consultation, or maintenance visit at your convenience.
+                  Call or text to schedule a fire sprinkler inspection, installation consultation, or maintenance visit. We will find a time that works for your property.
                 </p>
                 <a
                   href="tel:8329618372"
@@ -131,7 +131,7 @@ export default function ContactPage() {
                 <div className="mt-8 pt-8 border-t border-gray-100">
                   <h3 className="font-bold text-lg mb-4">Service Area</h3>
                   <p className="text-gray-700 text-sm leading-relaxed">
-                    E&R Ibukun LLC provides fire protection services across all of Texas, including the Greater Houston area, Gulf Coast, North Texas, and surrounding rural areas. We cover every Texas zip code with mobile service teams that come to your location.
+                    Houston is our base. Mobile teams go to every Texas zip code. Gulf Coast, North Texas, rural counties. We come to the property, not the other way around.
                   </p>
                 </div>
               </div>
@@ -155,15 +155,15 @@ export default function ContactPage() {
             {[
               {
                 q: "What types of fire suppression systems do you install and service?",
-                a: "We install and service wet and dry fire sprinkler systems, kitchen hood suppression systems, FM-200 clean agent systems for electronics and server rooms, CO2 systems for industrial machinery, and dry chemical systems for paint booths and flammable liquid storage.",
+                a: "Wet and dry sprinkler systems, kitchen hood systems, FM-200 clean agent for server rooms and electronics, CO2 for industrial machinery, and dry chemical for paint booths and flammable storage. If it suppresses fire, we install and service it.",
               },
               {
                 q: "How does your process work?",
-                a: "Our four-step process starts with a site evaluation to assess your current fire safety status and identify compliance gaps. We then design a customized protection plan, execute installation or maintenance with minimal disruption, and close out with full digital documentation and state-required tagging proving your property is 100% compliant.",
+                a: "Four steps. Site evaluation first, then a custom protection plan, then installation or maintenance, then full digital documentation and state-required tagging. You get the records, we handle the filing.",
               },
               {
                 q: "What fire extinguisher services do you provide?",
-                a: "We perform annual inspections with professional tagging and certification, 6-year internal examinations, hydrostatic pressure testing, and on-site recharging. We also provide PASS training (Pull, Aim, Squeeze, Sweep) for your employees.",
+                a: "Annual inspections with professional tagging and certification, 6-year internal exams, hydrostatic pressure testing, and on-site recharging. We also run PASS training for your staff. Pull, Aim, Squeeze, Sweep.",
               },
             ].map((item) => (
               <div key={item.q} className="bg-gray-50 rounded-lg p-6">

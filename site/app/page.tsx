@@ -97,7 +97,7 @@ export default function HomePage() {
             Fire Sprinkler Installation &amp; Service Across Texas
           </h1>
           <p className="text-lg sm:text-xl text-gray-200 mb-8 max-w-2xl mx-auto">
-            Houston-based fire protection company serving all of Texas with expert fire sprinkler installation, inspection, and emergency services for residential and commercial properties.
+            We cover every zip code in Texas. Sprinkler installation, inspections, suppression systems, and emergency dispatch from a fully licensed contractor based in Houston.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
@@ -142,7 +142,7 @@ export default function HomePage() {
               Fire Protection Services in Texas
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              From routine inspections to emergency response, E&R Ibukun LLC provides comprehensive fire protection for every property type across Texas.
+              Whether you need a new sprinkler system designed or a burst pipe fixed at 3 a.m., we handle it. Every property type, every Texas county.
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -208,7 +208,7 @@ export default function HomePage() {
           <div className="text-center mb-12">
             <h2 className="text-3xl sm:text-4xl font-bold mb-4">Why Texas Chooses E&R Ibukun LLC</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              A higher standard of fire life safety, backed by state licensing, NFPA compliance, and statewide coverage.
+              State license SCR-G-3451926. NFPA 25 compliance on every job. 254 counties covered. That is what you are hiring when you call.
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -239,7 +239,7 @@ export default function HomePage() {
           <div className="text-center mb-12">
             <h2 className="text-3xl sm:text-4xl font-bold mb-4">How Our Process Works</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              A proven four-step approach that gets your fire protection system installed, certified, and compliant with Texas state code.
+              Site visit, custom plan, installation, and full state documentation. No surprises, no paperwork left for you to chase.
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -310,7 +310,7 @@ export default function HomePage() {
             Ready to Protect Your Texas Property?
           </h2>
           <p className="text-red-200 text-lg mb-8">
-            Contact E&R Ibukun LLC today for a site evaluation. We serve every Texas zip code and handle all state documentation for you.
+            Call or text to schedule a site visit. We come to you, handle the paperwork, and leave your property compliant.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

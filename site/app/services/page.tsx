@@ -17,7 +17,7 @@ export default function ServicesPage() {
           <p className="uppercase tracking-widest text-sm mb-3 text-red-200">What We Do</p>
           <h1 className="text-4xl sm:text-5xl font-bold mb-4">Fire Protection Services in Texas</h1>
           <p className="text-red-100 text-lg max-w-2xl mx-auto">
-            Comprehensive fire life safety services for residential and commercial properties, from routine inspections to 24/7 emergency response.
+            Sprinkler systems, extinguisher service, suppression systems, and 24/7 emergency dispatch. Every property type. Every Texas zip code.
           </p>
         </div>
       </section>
@@ -30,7 +30,7 @@ export default function ServicesPage() {
               <p className="uppercase tracking-widest text-xs font-semibold mb-2" style={{ color: "#C3071F" }}>Service 01</p>
               <h2 className="text-3xl sm:text-4xl font-bold mb-4">Fire Sprinkler Systems</h2>
               <p className="text-gray-700 leading-relaxed mb-6">
-                E&R Ibukun LLC designs, installs, inspects, and repairs fire sprinkler systems for residential and commercial properties across Texas. Every system is built to NFPA 25 standards and Texas state code.
+                A sprinkler system that fails inspection costs more than one installed correctly the first time. We design, install, inspect, and repair to NFPA 25 standards and Texas state code, and we file all required documentation when the job is done.
               </p>
               <ul className="space-y-3 mb-8">
                 {[
@@ -82,7 +82,7 @@ export default function ServicesPage() {
               <p className="uppercase tracking-widest text-xs font-semibold mb-2" style={{ color: "#C3071F" }}>Service 02</p>
               <h2 className="text-3xl sm:text-4xl font-bold mb-4">Fire Extinguisher Services</h2>
               <p className="text-gray-700 leading-relaxed mb-6">
-                We provide complete fire extinguisher lifecycle management, including inspection, maintenance, testing, and employee training so your team is prepared to respond at any moment.
+                Most facilities schedule the annual inspection and forget about it until a fire marshal shows up. We do the annual tagging and certification, the 6-year internal examination, and the hydrostatic test. We also train your staff on how to actually use them.
               </p>
               <ul className="space-y-3 mb-8">
                 {[
@@ -118,7 +118,7 @@ export default function ServicesPage() {
               <p className="uppercase tracking-widest text-xs font-semibold mb-2" style={{ color: "#C3071F" }}>Service 03</p>
               <h2 className="text-3xl sm:text-4xl font-bold mb-4">Fire Suppression Systems</h2>
               <p className="text-gray-700 leading-relaxed mb-6">
-                Specialized suppression systems designed for environments where standard sprinklers are not appropriate, including commercial kitchens, data centers, server rooms, and industrial facilities.
+                A sprinkler head over a commercial range will destroy a kitchen. FM-200 in a server room stops a fire without water damage. The right suppression system depends on what is actually at risk. We spec and install the correct one for your environment.
               </p>
               <ul className="space-y-3 mb-8">
                 {[
@@ -170,7 +170,7 @@ export default function ServicesPage() {
               <p className="uppercase tracking-widest text-xs font-semibold mb-2" style={{ color: "#C3071F" }}>Service 04</p>
               <h2 className="text-3xl sm:text-4xl font-bold mb-4">24/7 Emergency Service</h2>
               <p className="text-gray-700 leading-relaxed mb-6">
-                Fire system failures do not wait for business hours. Our emergency dispatch team is available 24 hours a day, 7 days a week across all of Texas, with rapid response to get your protection back online fast.
+                A burst pipe in a sprinkler system can flood a building fast. A tripped suppression system in a server room can destroy equipment. Fire system failures do not wait for business hours. We run 24/7 dispatch across all of Texas. Call (832) 961-8372 any time.
               </p>
               <ul className="space-y-3 mb-8">
                 {[
@@ -248,7 +248,7 @@ export default function ServicesPage() {
         <div className="max-w-3xl mx-auto px-4">
           <h2 className="text-3xl font-bold mb-4">Get a Free Site Evaluation</h2>
           <p className="text-gray-600 mb-8">
-            Contact E&R Ibukun LLC today. We cover every Texas zip code and handle all state documentation from start to finish.
+            Call or text for a site evaluation. We cover every Texas zip code and file all state documentation from start to finish.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

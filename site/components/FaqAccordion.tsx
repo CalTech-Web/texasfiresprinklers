@@ -5,35 +5,35 @@ import { useState } from "react";
 const faqs = [
   {
     q: "What areas of Texas do you serve?",
-    a: "E&R Ibukun LLC serves all of Texas, including Houston and every surrounding zip code. Our mobile service teams travel to any location statewide, from the Gulf Coast to North Texas, for both residential and commercial properties.",
+    a: "All of Texas. Houston is our base, but we run mobile teams to every zip code in the state. Gulf Coast, North Texas, rural counties. If it is in Texas, we can get there.",
   },
   {
     q: "Are you licensed and insured in Texas?",
-    a: "Yes. E&R Ibukun LLC holds Texas Fire Sprinkler Certificate of Registration number SCR-G-3451926, issued by the Texas Department of Insurance State Fire Marshal's Office. All technicians are fully licensed and insured.",
+    a: "Yes. Registration SCR-G-3451926, issued by the Texas Department of Insurance State Fire Marshal's Office. Every technician who shows up on a job is licensed and insured.",
   },
   {
     q: "What fire sprinkler inspection standards do you follow?",
-    a: "We follow NFPA 25, the standard for inspection, testing, and maintenance of water-based fire protection systems. We also ensure compliance with Texas state fire codes and local fire marshal requirements, and we handle all required documentation.",
+    a: "NFPA 25 on every job. That is the national standard for water-based fire protection inspection and testing. We also track Texas state codes and local fire marshal requirements, and we handle all the documentation that comes with it.",
   },
   {
     q: "What types of fire suppression systems do you install and service?",
-    a: "We install and service wet and dry fire sprinkler systems, kitchen hood suppression systems, FM-200 clean agent systems for electronics and server rooms, CO2 systems for industrial machinery, and dry chemical systems for paint booths and flammable liquid storage.",
+    a: "Wet and dry sprinkler systems, kitchen hood systems, FM-200 clean agent for electronics and server rooms, CO2 for industrial machinery, and dry chemical for paint booths and flammable storage.",
   },
   {
     q: "Do you offer emergency service outside of business hours?",
-    a: "Yes. We offer 24-hour emergency dispatch across Texas, 7 days a week. Save our emergency hotline: (832) 961-8372. We handle burst pipe repair, alarm silencing, system restoration after a fire, and on-site fire watch services while systems are down.",
+    a: "Yes. The line is (832) 961-8372 and it runs 24 hours a day, 7 days a week. Burst pipe repair, alarm faults, post-fire system restoration, and on-site fire watch while a system is offline.",
   },
   {
     q: "Do you handle the paperwork for fire marshal compliance?",
-    a: "Yes. We handle all required state documentation and local fire marshal reports to keep your business in good standing so you do not have to manage that administrative burden yourself.",
+    a: "Yes. State documentation and local fire marshal reports are part of every job. You should not have to track down paperwork after the technician leaves.",
   },
   {
     q: "How does your process work?",
-    a: "Our four-step process starts with a site evaluation to assess your current fire safety status and identify compliance gaps. We then design a customized protection plan, execute installation or maintenance with minimal disruption, and close out with full digital documentation and state-required tagging proving your property is 100% compliant.",
+    a: "Four steps: site evaluation, custom protection plan, installation or maintenance, and final certification with full digital documentation. We handle the state-required tagging and fire marshal paperwork at the end.",
   },
   {
     q: "What fire extinguisher services do you provide?",
-    a: "We perform annual inspections with professional tagging and certification, 6-year internal examinations, hydrostatic pressure testing, and on-site recharging. We also provide PASS training (Pull, Aim, Squeeze, Sweep) for your employees.",
+    a: "Annual inspections with professional tagging and certification, 6-year internal exams, hydrostatic pressure testing, and on-site recharging. We also offer PASS training for your staff. Pull, Aim, Squeeze, Sweep.",
   },
 ];
 

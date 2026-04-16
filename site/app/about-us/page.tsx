@@ -29,13 +29,13 @@ export default function AboutPage() {
             <div>
               <h2 className="text-3xl sm:text-4xl font-bold mb-6">Our Mission</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
-                E&R Ibukun LLC began with a simple but vital goal: to provide Texas property owners with a higher standard of fire life safety. We recognized that Texas businesses needed a partner who understands both the technical complexities of fire suppression and the specifics of state fire codes.
+                Texas property owners have a specific problem. The state requires licensed fire sprinkler contractors, fire codes vary by city and occupancy type, and documentation errors mean failed inspections. Most contractors stay close to their home metro and pass on rural or outlying jobs. E&R Ibukun LLC was built to fill that gap.
               </p>
               <p className="text-gray-700 leading-relaxed mb-4">
-                Starting locally in Houston, we expanded statewide with specialists who treat each building as their own. Our team brings a zero-fail performance standard to every inspection, installation, and emergency call.
+                Founded in Houston, we now cover every Texas zip code. The same NFPA 25 standard that applies to an office tower in Midtown applies to a distribution center three hours away. We show up to both.
               </p>
               <p className="text-gray-700 leading-relaxed">
-                We are fully licensed and insured, holding Texas Fire Sprinkler Certificate of Registration No. SCR-G-3451926, issued by the Texas Department of Insurance State Fire Marshal&apos;s Office.
+                Texas Fire Sprinkler Certificate of Registration No. SCR-G-3451926. Issued by the Texas Department of Insurance State Fire Marshal&apos;s Office. Fully licensed and insured.
               </p>
             </div>
             <div className="relative h-80 lg:h-[420px] rounded-lg overflow-hidden shadow-lg">
@@ -58,7 +58,7 @@ export default function AboutPage() {
             <h3 className="text-2xl font-bold mb-1" style={{ color: "#800A03" }}>Edwin Ibukun</h3>
             <p className="text-gray-500 mb-4">Owner / Founder</p>
             <p className="text-gray-700 leading-relaxed">
-              Edwin Ibukun founded E&R Ibukun LLC with a commitment to providing Texas property owners with certified, reliable fire protection. Under his leadership, the company has grown from a Houston-based operation to a statewide service provider, covering every Texas zip code with the same standard of expert care.
+              Edwin Ibukun started E&R Ibukun LLC because fire protection in Texas needed someone willing to go where the property was, handle the documentation, and do the job right. A Houston base, statewide reach, and a no-shortcuts policy on compliance. That is the standard he set.
             </p>
             <blockquote className="mt-6 border-l-4 pl-4 italic text-gray-600" style={{ borderColor: "#800A03" }}>
               &ldquo;Certified experts dedicated to your protection.&rdquo;
@@ -111,7 +111,7 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
               { title: "Statewide Coverage", desc: "Every Texas zip code, including Gulf Coast, North Texas, and surrounding rural areas." },
-              { title: "Digital Diagnostics", desc: "Advanced system diagnostics and modern technology for faster, more accurate service." },
+              { title: "Digital Diagnostics", desc: "System diagnostics run on modern equipment, not paper logs. Faster reads, fewer missed defects." },
               { title: "No Mess Left Behind", desc: "Clean work guarantee on every installation and maintenance job." },
               { title: "Real Expert Access", desc: "Direct communication with certified technicians, not call center representatives." },
             ].map((item) => (
@@ -129,7 +129,7 @@ export default function AboutPage() {
         <div className="max-w-3xl mx-auto px-4">
           <h2 className="text-3xl font-bold mb-4">Ready to Work With Us?</h2>
           <p className="text-gray-600 mb-8">
-            Contact E&R Ibukun LLC for a free site evaluation. We serve all of Texas and manage every step of compliance documentation for you.
+            Call or text (832) 961-8372 to schedule a site visit. We cover all of Texas and handle every compliance document from start to finish.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

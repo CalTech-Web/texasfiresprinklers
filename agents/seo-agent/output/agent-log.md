@@ -78,3 +78,30 @@ Commit `da5d111` pushed to origin main.
   - Improved our-process page title: "Fire Protection Process in Texas" -> "Fire Sprinkler Service Process in Texas"
   - Improved our-process meta description to include "fire sprinkler" keyword and "state certification"
   - Commit: 5cdaba8 | Pushed to origin main
+Run #3 complete. Here's what was done:
+
+**Canonical URLs (highest remaining technical SEO priority)**
+- Added `alternates.canonical` to all 5 content pages (`/`, `/services`, `/about-us`, `/our-process`, `/contact-us`). Without these, Google can index URL variants (trailing slashes, UTM params) and split PageRank across duplicates.
+
+**Per-page OpenGraph metadata**
+- All inner pages now have explicit `openGraph.url`, `openGraph.title`, and `openGraph.description`. Previously they inherited the root OG from `layout.tsx`, so every shared link pointed back to the homepage URL in OG data.
+
+**GeoCoordinates in LocalBusiness schema (`layout.tsx`)**
+- Added `"geo": { "@type": "GeoCoordinates", "latitude": 29.797, "longitude": -95.276 }` to the global `LocalBusiness` schema. This is a local pack signal that helps Google associate the business with its physical location in Houston.
+
+**Person schema for Edwin Ibukun (`about-us/page.tsx`)**
+- Added `schema.org/Person` with `name`, `jobTitle`, and `worksFor` linking back to the organization. Supports Google's E-E-A-T (Experience, Expertise, Authoritativeness, Trustworthiness) evaluation.
+
+**Our-process page title sharpened**
+- `"Fire Protection Process in Texas"` → `"Fire Sprinkler Service Process in Texas"` — adds the "fire sprinkler" keyword that search intent targets, and updated the description to include "fire sprinkler" and "state certification."
+
+Commit `5cdaba8` pushed to origin main.
+[2026-04-15 17:53:39] Run #3 finished
+[2026-04-15 17:53:44] Run #4 starting (model: sonnet)
+[2026-04-15 17:53:44] Run #4 complete
+  - Expanded areaServed in LocalBusiness schema from single State entity to array of 11 entries: Texas state + 10 major Texas cities (Houston, Dallas, Austin, San Antonio, Fort Worth, El Paso, Arlington, Corpus Christi, Plano, Lubbock)
+  - Added second ContactPoint for emergency (24/7 all-day) alongside existing customer service ContactPoint in LocalBusiness schema
+  - Added geo meta tags to layout.tsx <head>: geo.region (US-TX), geo.placename (Houston, Texas), geo.position, ICBM — covers secondary search engines (Bing, Yahoo, etc.)
+  - Added keywords metadata to all 5 content pages (/, /services, /about-us, /our-process, /contact-us)
+  - Expanded Person schema for Edwin Ibukun on about-us: added description and knowsAbout array (7 fire protection expertise areas) for stronger E-E-A-T signals
+  - Commit: 7808dad | Pushed to origin main
